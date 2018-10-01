@@ -311,6 +311,19 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .social-link-fb svg {
     height: 1.5rem;
 }
+.social-link-tw svg {
+    height: 1.5rem;
+}
+.social-link-tg svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.social-link-in svg {
+    stroke: #f4f8fb;
+    stroke-width: 2px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
 
 .social-link-wb svg {
     height: 1.6rem;
@@ -1492,6 +1505,8 @@ Usage (In Ghost editor):
 
 .floating-header-share-wa {
     background: #128c7e;
+    stroke: #fff;
+    stroke-width: 0.5px;
 }
 
 .floating-header-share-tg {
