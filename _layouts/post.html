@@ -26,7 +26,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | date:'%e %B %Y' }}</time>
+                    <time class="post-full-meta-date" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | jdate: "%A %d %b %Y" }}</time>
                     {% if page.tags.size > 0 %}
                         <span class="date-divider">/</span>
                         {% for tag in page.tags %}
@@ -55,8 +55,8 @@ into the {body} of the default.hbs template -->
             <!-- Email subscribe form at the bottom of the page -->
             {% if site.subscribers %}
                 <section class="subscribe-form">
-                    <h3 class="subscribe-form-title">Subscribe to {{ site.title }}</h3>
-                    <p>Get the latest posts delivered right to your inbox</p>
+                    <h3 class="subscribe-form-title">به {{ site.title }} بپیوندید</h3>
+                    <p>از آخرین اخبار ما آگاه شوید!</p>
                     {% include partials/subscribe-form.html placeholder="youremail@example.com" %}
                 </section>
             {% endif %}
@@ -161,11 +161,11 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">
                                 {% if related_posts > 1 %}
-                                    See all {{ related_posts | minus: 1 }} posts  →
+                                    تمام {{ related_posts | minus: 1 }} مطلب را مشاهده کنید  →
                                 {% elsif related_posts == 1 %}
-                                    {{ related_posts }} post  →
+                                    {{ related_posts }} مطلب  →
                                 {% else %}
-                                    No posts.
+                                    مطلبی وجود ندارد.
                                 {% endif %}
                             </a>
                         </footer>

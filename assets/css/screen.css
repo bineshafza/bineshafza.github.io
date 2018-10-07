@@ -452,6 +452,8 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-title {
     margin-top: 0;
+    font-family: "Ordibehesht";
+    font-size: 2.5rem;
 }
 
 .post-card-content {
@@ -514,7 +516,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     }
 
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) h2 {
-        font-size: 2.6rem;
+        font-size: 3rem;
     }
 
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) p {
