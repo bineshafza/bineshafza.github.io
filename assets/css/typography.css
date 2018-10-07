@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Ordibehesht;
+    src: url('../fonts/Ordibehesht/Ordibehesht.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Gandom;
+    src: url('../fonts/Gandom/Gandom.eot');
+    src: url('../fonts/Gandom/Gandom.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gandom/Gandom.woff') format('woff'),
+         url('../fonts/Gandom/Gandom.ttf') format('truetype');
+    font-weight: normal;
+  }
