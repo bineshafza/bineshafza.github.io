@@ -101,19 +101,34 @@ defaults:
       path: "_posts/news"
       type: posts
     values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
       permalink: news/:year/:month/:day/:title
       category: news
+      catfarsi: اخبار
   # Blog
   - scope:
       path: "_posts/blog"
       type: posts
     values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
       permalink: blog/:title
-      category: essays
+      category: blog
+      catfarsi: وبلاگ
   # Classes
   - scope:
       path: "_posts/classes"
       type: posts
     values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
       permalink: classes/:title
       category: classes
+      catfarsi: کلاس‌ها

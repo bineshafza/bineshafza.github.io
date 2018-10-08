@@ -1,17 +1,17 @@
 ---
 layout: page
 current: about
-title: About
+title: درباره بینش‌افزا
 navigation: true
 logo: 'assets/images/ghost.png'
 class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+آموزشگاه بینش افزا با بهره گیری از روشهای نوین و مبتکرانه درصدد آموزش زبان آموزان با بالاترین کیفیت آموزشی و صرف کمترین هزینه و زمان می‌باشد.
+آموزشگاه بینش افزا با بکارگیری توان مدیریتی و علمی مربیان خلاق و با تجربه همواره برآن است تا آموزش صحیح و کاربردی در تمام رده های سنی (از خردسال تا بزرگسال) را سرلوحه‌ی اهداف خود قرار دهد.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
-
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
-
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+آموزشگاه بینش افزا با بهره گیری از روشهای نوین و مبتکرانه درصدد آموزش زبان آموزان با بالاترین کیفیت آموزشی و صرف کمترین هزینه و زمان می‌باشد.
+آموزشگاه بینش افزا با بکارگیری توان مدیریتی و علمی مربیان خلاق و با تجربه همواره برآن است تا آموزش صحیح و کاربردی در تمام رده های سنی (از خردسال تا بزرگسال) را سرلوحه‌ی اهداف خود قرار دهد.
+0123
+این آموزشگاه دارای مجوز رسمی از سازمان فنی و حرفه ای کشور می باشد. لذا کلیه ی استانداردهای آموزشی و مدارک تحت مجوز سازمان فنی و حرفه ای کشور بصورت بین المللی و تحت لیسانس سازمان جهانی کار (International Labor Organization: ILO) می باشد. این مدارک بین المللی در 187 کشور عضو سازمان جهانی کار از قبیل کشورهای پیشرفته مانند آمریکا، کانادا، فرانسه، انگلیس و استرالیا مورد پذیرش و معتبر می باشد. جهت اطلاعات بیشتر در مورد سازمان جهانی کار و کشورهای عضو ان و مدارک بین المللی به این لینک مراجعه فرمایید.
