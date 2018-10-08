@@ -36,7 +36,7 @@ disqus_shortname: jekyller # replace with your disqus username
 google_analytics: "" # replace with your GA tracking identifier
 
 # Permalinks
-permalink: /:categories/:title
+permalink: /:title
 # permalink: /author/:author
 # permalink: /tag/:tag
 
@@ -94,3 +94,26 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+
+defaults:
+  # News
+  - scope:
+      path: "_posts/news"
+      type: posts
+    values:
+      permalink: news/:year/:month/:day/:title
+      category: news
+  # Blog
+  - scope:
+      path: "_posts/blog"
+      type: posts
+    values:
+      permalink: blog/:title
+      category: essays
+  # Classes
+  - scope:
+      path: "_posts/classes"
+      type: posts
+    values:
+      permalink: classes/:title
+      category: classes

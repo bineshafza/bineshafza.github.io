@@ -8,6 +8,7 @@ fiction:
   cover: False
 fables:
   name: fables
+  farsi: افسانه‌ها
   description: A series of short stories that make you think.
   cover: assets/images/tags/fables.jpg
 getting-started:
