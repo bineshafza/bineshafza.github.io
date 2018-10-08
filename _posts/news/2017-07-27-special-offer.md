@@ -2,7 +2,7 @@
 title: تخفیف ویژه آغاز دوره های آموزشی
 date: 2017-07-27 06:00:00
 tags: [Special Offer]
-cover:  assets/images/posts/welcome.jpg
+cover:  assets/images/posts/discount.jpg
 subclass: 'post tag-getting-started'
 author: bineshafza
 ---
