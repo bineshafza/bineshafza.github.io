@@ -3,7 +3,7 @@ layout: default
 current: home
 class: 'home-template'
 navigation: True
-permalink: /news
+permalink: /IELTS
 ---
 
 <!-- < default -->
@@ -33,7 +33,7 @@ into the {body} of the default.hbs template -->
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {% assign posts = site.posts | where: "category", "اخبار" %}
+            {% assign posts = site.posts | where: "category", "آیلتس" %}
             {% for post in posts %}
             <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
                 {% if post.cover %}
