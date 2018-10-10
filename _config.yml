@@ -107,7 +107,7 @@ defaults:
       current: post
       permalink: news/:year/:month/:day/:title
       category: news
-      catfarsi: اخبار
+      catname: اخبار
   # Blog
   - scope:
       path: "_posts/blog"
@@ -119,7 +119,7 @@ defaults:
       current: post
       permalink: blog/:title
       category: blog
-      catfarsi: وبلاگ
+      catname: وبلاگ
   # Classes
   - scope:
       path: "_posts/classes"
@@ -131,4 +131,4 @@ defaults:
       current: post
       permalink: classes/:title
       category: classes
-      catfarsi: کلاس‌ها
+      catname: کلاس‌ها
