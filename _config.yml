@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: "/"
+baseurl: ""
 
 # Website info
 title: بینش‌افزا
@@ -13,7 +13,7 @@ description: زبان را با ما راحت یاد بگیرید
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+favicon: /assets/images/favicon.png
 production_url: https://bineshafza.github.io/
 source_url: https://github.com/bineshafza/bineshafza.github.io/
 CNAME: #add cname for website to be created
