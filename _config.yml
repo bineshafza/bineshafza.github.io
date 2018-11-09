@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: "/"
+baseurl: ""
 
 # Website info
 title: بینش‌افزا
@@ -105,7 +105,7 @@ defaults:
       navigation: True
       layout: post
       current: post
-      permalink: /news/:year/:month/:day/:title
+      permalink: /news/:year/:month/:day/:title/
       category: news
       catname: اخبار
   # Blog
@@ -117,7 +117,7 @@ defaults:
       navigation: True
       layout: post
       current: post
-      permalink: /blog/:title
+      permalink: /blog/:title/
       category: blog
       catname: وبلاگ
   # Classes
@@ -129,6 +129,6 @@ defaults:
       navigation: True
       layout: post
       current: post
-      permalink: /classes/:title
+      permalink: /classes/:title/
       category: classes
       catname: کلاس‌ها
