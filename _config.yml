@@ -14,8 +14,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://bineshafza.github.io/fa/
-source_url: https://github.com/bineshafza/fa/
+production_url: https://bineshafza.github.io/
+source_url: https://github.com/bineshafza/bineshafza.github.io/
 CNAME: #add cname for website to be created
 
 # Social info
@@ -71,7 +71,7 @@ feed:
 safe: False
 lsi: False
 username: bineshafza
-repo: https://github.com/bineshafza/bineshafza.github.io.git
+repo: bineshafza.github.io.git
 branch: master
 relative_source: ../fa/
 destination: ../bineshafza/fa
