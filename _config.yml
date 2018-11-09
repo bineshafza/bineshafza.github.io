@@ -71,7 +71,7 @@ feed:
 safe: False
 lsi: False
 username: bineshafza
-repo: bineshafza.github.io.git
+repo: bineshafza.github.io
 branch: master
 relative_source: ../fa/
 destination: ../bineshafza/fa
