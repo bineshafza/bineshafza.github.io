@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: "/fa/"
+baseurl: "/"
 
 # Website info
 title: بینش‌افزا
@@ -71,7 +71,7 @@ feed:
 safe: False
 lsi: False
 username: bineshafza
-repo: fa
+repo: https://github.com/bineshafza/bineshafza.github.io.git
 branch: master
 relative_source: ../fa/
 destination: ../bineshafza/fa
