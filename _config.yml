@@ -73,7 +73,7 @@ safe: False
 lsi: False
 username: bineshafza
 repo: bineshafza.github.io
-branch: master
+branch: dev
 #relative_source: ../fa/
 #destination: ../bineshafza/fa
 port: 4002
