@@ -13,7 +13,7 @@ CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"]
 REPO = CONFIG["repo"]
 SOURCE_BRANCH = CONFIG["branch"]
-DESTINATION_BRANCH = "gh-pages"
+DESTINATION_BRANCH = "master"
 CNAME = CONFIG["CNAME"]
 
 def check_destination
@@ -58,6 +58,7 @@ namespace :site do
     # Make sure destination folder exists as git repo
     check_destination
 
+    sh "git fetch"
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
 
