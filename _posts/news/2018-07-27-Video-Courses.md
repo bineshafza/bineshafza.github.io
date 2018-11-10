@@ -2,7 +2,7 @@
 title: آموزش زبان انگلیسی با استفاده از ویدیو های مفهومی
 date: 2017-07-27 07:00:00
 tags: [Courses]
-cover:  assets/images/posts/video.jpg
+cover:  /assets/images/posts/video.jpg
 subclass: 'post tag-getting-started'
 author: bahramhossein
 ---
