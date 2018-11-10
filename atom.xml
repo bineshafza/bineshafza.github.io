@@ -1,28 +1,113 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title> - Articles</title>
+    <description>زبان را با ما راحت یاد بگیرید</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    https://bineshafza.ir</link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>برگزاری ورک شاپ آیلتس</title>
+        
+          <description>&lt;p&gt;برگزاری دوره ۴ ساعته ورک شاپ آیلتس&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 10:00:00 +0000</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        https://bineshafza.ir/news/IELTS-Workshop</link>
+        <guid isPermaLink="true">https://bineshafza.ir/news/IELTS-Workshop</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>برگزاری امتحان ماک آیلتس</title>
+        
+          <description>&lt;p&gt;برگزاری امتحان ماک آیلتس&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 08:00:00 +0000</pubDate>
+        <link>
+        https://bineshafza.ir/news/IELTS-Mock</link>
+        <guid isPermaLink="true">https://bineshafza.ir/news/IELTS-Mock</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>آموزش زبان انگلیسی با استفاده از ویدیو های مفهومی</title>
+        
+          <description>&lt;p&gt;آموزشگاه زبان بینش افزا در راستای تقویت زبان انگلیسی، ویدیو های روانشناسی با صحبت های روپرت اسپیرا (Rupert Spira) منتشر نموده است 
+برای مشاهده ویدیو ها می توانید به صفحه جدید آموزش زبان انگلیسی مراجعه نمایید.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 07:00:00 +0000</pubDate>
+        <link>
+        https://bineshafza.ir/news/Video-Courses</link>
+        <guid isPermaLink="true">https://bineshafza.ir/news/Video-Courses</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>تخفیف ویژه آغاز دوره های آموزشی</title>
+        
+          <description>&lt;p&gt;در صورت ثبت نام گروهی، متقاضیان از تخفیف ویژه به شرح جدول زیر بهره مند می‌گردند:&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;ردیف&lt;/th&gt;
+&lt;th&gt;تعداد افراد&lt;/th&gt;
+&lt;th&gt;میزان تخفیف (٪)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;۳ – ۵ نفر&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;۵ – ۱۰ نفر&lt;/td&gt;
+&lt;td&gt;۱۵&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;۱۰ – ۲۰ نفر&lt;/td&gt;
+&lt;td&gt;۲۰&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;۲۰ نفر به بالا و دوره برای سازمان‌ها&lt;/td&gt;
+&lt;td&gt;۲۵&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 06:00:00 +0000</pubDate>
+        <link>
+        https://bineshafza.ir/news/special-offer</link>
+        <guid isPermaLink="true">https://bineshafza.ir/news/special-offer</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>دوره های ترمیک و فشرده</title>
+        
+          <description>&lt;p&gt;آموزشگاه بینش افزا دوره های جامع آموزش زبان انگلیسی را بر اساس رده‌بندی CEFR (برای توضیحات بیشتر اینجا را کلیک کنید) و به روزترین منابع آموزشی برگزار می‌نماید. این دوره ها از سطح مبتدی تا پیشرفته و در رده‌های سنی متفاوت (کودک، نوجوان و بزرگسال) بصورت عمومی، نیمه خصوصی و خصوصی می‌باشد.
+جهت رفاه زبان آموزان گرامی، با توجه به محدودیتهای زمانی افراد، کلیه ی مراحل آموزشی بصورت ترمیک (دو یا سه روز در هفته و هر روز یک جلسه) یا فشرده (یک یا دو روز در هفته به مدت سه الی چهار ساعت) وپایان هفته (پنج شنبه ها و جمعه ها) برقرار گردیده است.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 12 Aug 2014 10:18:00 +0000</pubDate>
+        <link>
+        https://bineshafza.ir/classes/courses</link>
+        <guid isPermaLink="true">https://bineshafza.ir/classes/courses</guid>
+      </item>
+      
+    
   </channel>
 </rss>

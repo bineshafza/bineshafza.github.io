@@ -1,9 +1,3 @@
----
-layout: error
-current: error
-title: "404 - Page Not Found"
-permalink: 404.html
----
 <!--
 This error template is used for all 404 errors, which might occur on your site.
 It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
@@ -14,25 +8,82 @@ It's a good idea to keep this template as minimal as possible in terms of both f
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>{{ page.title }}</title>
+    <title>404 - Page Not Found</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    {% include head.html %}
+    <meta name="description" content="زبان را با ما راحت یاد بگیرید" />
+    <link rel="shortcut icon" href="https://bineshafza.ir/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://bineshafza.ir/404.html" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="بینش‌افزا" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="404 - Page Not Found" />
+    <meta property="og:description" content="زبان را با ما راحت یاد بگیرید" />
+    <meta property="og:url" content="https://bineshafza.ir/404.html" />
+    <meta property="og:image" content="https://bineshafza.ir/assets/images/blog-cover.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/ghost" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="404 - Page Not Found" />
+    <meta name="twitter:description" content="زبان را با ما راحت یاد بگیرید" />
+    <meta name="twitter:url" content="https://bineshafza.ir" />
+    <meta name="twitter:image" content="https://bineshafza.ir/assets/images/blog-cover.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="بینش‌افزا" />
+    <meta name="twitter:site" content="@tryghost" />
+    <meta name="twitter:creator" content="@tryghost" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "بینش‌افزا",
+        "logo": "https://bineshafza.ir/assets/images/blog-icon.png"
+    },
+    "url": "https://bineshafza.ir/404.html",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://bineshafza.ir/assets/images/blog-cover.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://bineshafza.ir/404.html"
+    },
+    "description": "زبان را با ما راحت یاد بگیرید"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="404 - Page Not Found" href="/feed.xml" />
+
 </head>
 <body class="error-template">
     <div class="site-wrapper">
 
-        <header class="site-header outer {% if page.cover %}" style="background-image: url({{ page.cover }})){% else %}no-cover{% endif %}">
+        <header class="site-header outer no-cover">
             <div class="inner">
                 <nav class="site-nav-center">
-                    {% if site.logo %}
-                        <a class="site-nav-logo" href="/"><img src="{{ site.logo }}" alt="{{ site.title }}" /></a>
-                    {% else %}
-                        <a class="site-nav-logo" href="/">{{ site.title }}</a>
-                    {% endif %}
+                    
+                        <a class="site-nav-logo" href="/"><img src="/assets/images/blog-icon.png" alt="بینش‌افزا" /></a>
+                    
                 </nav>
             </div>
         </header>
@@ -53,7 +104,160 @@ It's a good idea to keep this template as minimal as possible in terms of both f
             <div class="inner">
                 <div class="post-feed">
                     <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-                    {%  include partials/post-card-error.html %}
+                    
+
+    
+    
+        <article class="post-card ">
+            
+                <a class="post-card-image-link" href="/news/IELTS-Workshop">
+                    <div class="post-card-image" style="background-image: url(/assets/images/posts/workshop.png)"></div>
+                </a>
+            
+            <div class="post-card-content">
+                <a class="post-card-content-link" href="/news/IELTS-Workshop">
+                    <header class="post-card-header">
+                        
+                            
+                                
+                                    <span class="post-card-tags">Workshops</span>
+                                
+                            
+                        
+
+                        <h2 class="post-card-title">برگزاری ورک شاپ آیلتس</h2>
+                    </header>
+                    <section class="post-card-excerpt">
+                        <p>برگزاری دوره ۴ ساعته ورک شاپ آیلتس
+
+روز جمعه ۲۶ مرداد ۱۳۹۷
+
+هزینه دوره ۴۰۰۰۰ تومان
+
+استاد:آقای روشن دل
+</p>
+                    </section>
+                </a>
+                <footer class="post-card-meta">
+                    
+                        
+                            
+                            <img class="author-profile-image" src="/assets/images/authors/ghost.png" alt="بینش افزا" />
+                            
+                            <span class="post-card-author">
+                                <a href="/author/bineshafza/">بینش افزا</a>
+                            </span>
+                        
+                    
+                        
+                    
+                </footer>
+            </div>
+        </article>
+    
+
+    
+    
+        <article class="post-card ">
+            
+                <a class="post-card-image-link" href="/news/IELTS-Mock">
+                    <div class="post-card-image" style="background-image: url(/assets/images/posts/mock.png)"></div>
+                </a>
+            
+            <div class="post-card-content">
+                <a class="post-card-content-link" href="/news/IELTS-Mock">
+                    <header class="post-card-header">
+                        
+                            
+                                
+                                    <span class="post-card-tags">Mock test</span>
+                                
+                            
+                        
+
+                        <h2 class="post-card-title">برگزاری امتحان ماک آیلتس</h2>
+                    </header>
+                    <section class="post-card-excerpt">
+                        <p>برگزاری امتحان ماک آیلتس
+
+۱ شهریور ۱۳۹۷
+
+روز پنج شنبه،ساعت ۶-۳ عصر.
+
+با مشاوره رایگان در موسسه با سوپروایزر آموزشگاه
+
+هزینه امتحان:۳۵۰۰۰ تومان
+</p>
+                    </section>
+                </a>
+                <footer class="post-card-meta">
+                    
+                        
+                            
+                            <img class="author-profile-image" src="/assets/images/authors/ghost.png" alt="بینش افزا" />
+                            
+                            <span class="post-card-author">
+                                <a href="/author/bineshafza/">بینش افزا</a>
+                            </span>
+                        
+                    
+                        
+                    
+                </footer>
+            </div>
+        </article>
+    
+
+    
+    
+        <article class="post-card ">
+            
+                <a class="post-card-image-link" href="/news/Video-Courses">
+                    <div class="post-card-image" style="background-image: url(/assets/images/posts/video.jpg)"></div>
+                </a>
+            
+            <div class="post-card-content">
+                <a class="post-card-content-link" href="/news/Video-Courses">
+                    <header class="post-card-header">
+                        
+                            
+                                
+                                    <span class="post-card-tags">Courses</span>
+                                
+                            
+                        
+
+                        <h2 class="post-card-title">آموزش زبان انگلیسی با استفاده از ویدیو های مفهومی</h2>
+                    </header>
+                    <section class="post-card-excerpt">
+                        <p>آموزشگاه زبان بینش افزا در راستای تقویت زبان انگلیسی، ویدیو های روانشناسی با صحبت های روپرت اسپیرا (Rupert Spira) منتشر نموده است برای مشاهده ویدیو ها می توانید به صفحه جدید آموزش زبان</p>
+                    </section>
+                </a>
+                <footer class="post-card-meta">
+                    
+                        
+                    
+                        
+                            
+                            <img class="author-profile-image" src="/assets/images/authors/bahram.jpg" alt="بهرام حسین" />
+                            
+                            <span class="post-card-author">
+                                <a href="/author/bahramhossein/">بهرام حسین</a>
+                            </span>
+                        
+                    
+                </footer>
+            </div>
+        </article>
+    
+
+    
+    
+
+    
+    
+
+
                 </div>
             </div>
         </aside>
@@ -62,3 +266,4 @@ It's a good idea to keep this template as minimal as possible in terms of both f
     </div>
 </body>
 </html>
+
