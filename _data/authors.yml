@@ -4,7 +4,7 @@ bineshafza:
   url_full: http://jekyller.github.io/jasper2/
   url: https://bineshafza.ir
   bio: The professional publishing platform
-  picture: assets/images/authors/ghost.png
+  picture: /assets/images/authors/ghost.png
   facebook: ghost
   twitter: tryghost
   cover: False
@@ -15,7 +15,7 @@ bahramhossein:
   url_full: http://hannah.wf/
   url: hannah.wf
   bio: بهرام مدرس کلاس‌های مکالمه موضوع محور بینش افزا است و چند سالی است که در این زمینه فعالیت دارد
-  picture: assets/images/authors/bahram.jpg
-  cover: assets/images/authors/bahram-cover.jpg
+  picture: /assets/images/authors/bahram.jpg
+  cover: /assets/images/authors/bahram-cover.jpg
   facebook: False
   twitter: erisds
