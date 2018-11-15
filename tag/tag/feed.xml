@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://bineshafza.ir/tag/tag/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://bineshafza.ir/" rel="alternate" type="text/html" />
+  <updated>2018-11-15T22:54:35+03:30</updated>
+  <id>https://bineshafza.ir/tag/tag/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">بینش‌افزا | </title>
+  
+
+  
+    <subtitle>زبان را با ما راحت یاد بگیرید</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">new class</title>
+      <link href="https://bineshafza.ir/classes/new-class" rel="alternate" type="text/html" title="new class" />
+      <published>2018-11-14T22:50:56+03:30</published>
+      <updated>2018-11-14T22:50:56+03:30</updated>
+      <id>https://bineshafza.ir/classes/new-class</id>
+      <content type="html" xml:base="https://bineshafza.ir/classes/new-class">&lt;p&gt;asdsad&lt;img src=&quot;/assets/images/posts/speeches.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>بینش افزا</name>
+        
+        
+      </author>
+
+      
+        <category term="classes" />
+      
+
+      
+        <category term="tag" />
+      
+
+      
+        <summary type="html">asdsad</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
