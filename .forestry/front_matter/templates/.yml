@@ -33,4 +33,4 @@ fields:
   hidden: false
   default: ''
 pages:
-- _posts/blog/test.md
+- _posts/blog/2018-11-13-test.md
