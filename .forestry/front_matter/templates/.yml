@@ -32,5 +32,3 @@ fields:
   type: text
   hidden: false
   default: ''
-pages:
-- _posts/news/2018-11-13-game-day.md
