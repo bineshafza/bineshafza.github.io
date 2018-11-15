@@ -12,11 +12,11 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: 2018-11-13 00:00:00 +0330
+  default: ''
 - type: file
   name: cover
   label: cover
-  default: assets/images/posts/mock.png
+  default: ''
 - name: tags
   label: Tags
   type: tag_list
@@ -27,10 +27,5 @@ fields:
   type: text
   hidden: false
   default: bineshafza
-- name: subclass
-  label: Subclass
-  type: text
-  hidden: false
-  default: ''
 pages:
 - _posts/blog/2018-11-13-test.md
