@@ -27,3 +27,5 @@ fields:
   type: text
   hidden: false
   default: bineshafza
+pages:
+- _posts/classes/new-class.md
