@@ -75,7 +75,7 @@ username: bineshafza
 repo: bineshafza.github.io
 branch: dev
 #relative_source: ../fa/
-destination: _site
+destination: ../bineshafza/fa
 port: 4002
 
 exclude:
