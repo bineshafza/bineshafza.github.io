@@ -16,7 +16,7 @@ fields:
 - type: file
   name: cover
   label: cover
-  default: assets/images/posts/mock.png
+  default: 
 - name: tags
   label: Tags
   type: tag_list
