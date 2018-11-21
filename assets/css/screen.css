@@ -1949,7 +1949,7 @@ Usage (In Ghost editor):
     margin-left: 20px;
 }
 
-.site-footer-nav a:before {
+/* .site-footer-nav a:before {
     content: "";
     position: absolute;
     top: 11px;
@@ -1959,7 +1959,7 @@ Usage (In Ghost editor):
     height: 2px;
     background: #fff;
     border-radius: 100%;
-}
+} */
 
 .site-footer-nav a:first-of-type:before {
     display: none;
