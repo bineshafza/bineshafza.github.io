@@ -2,7 +2,7 @@
 title: School of Life
 author: bineshafza
 date: 2018-11-23 15:37:34 +0330
-cover: "/assets/images/posts/courses.jpg"
+cover: "/assets/images/posts/bINESHAFZA.IR.jpg"
 tags:
 - classes
 
