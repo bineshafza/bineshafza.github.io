@@ -14,7 +14,18 @@ bahramhossein:
   location: تهران ایران
   url_full: http://hannah.wf/
   url: hannah.wf
-  bio: بهرام مدرس کلاس‌های مکالمه موضوع محور بینش افزا است و چند سالی است که در این زمینه فعالیت دارد
+  bio: مدرس کلاس های مکالمه مفهمومی
+  picture: /assets/images/authors/bahram.jpg
+  cover: /assets/images/authors/bahram-cover.jpg
+  facebook: False
+  twitter: erisds
+omidroshandel:
+  username: omidroshandel
+  name: امید روشندل
+  location: تهران ایران
+  url_full: http://hannah.wf/
+  url: hannah.wf
+  bio: مدرس کلاس های آیلتس
   picture: /assets/images/authors/bahram.jpg
   cover: /assets/images/authors/bahram-cover.jpg
   facebook: False
