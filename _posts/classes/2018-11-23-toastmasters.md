@@ -2,7 +2,7 @@
 title: Toastmasters
 author: bineshafza
 date: 2018-11-23 15:48:40 +0330
-cover: "/assets/images/posts/courses.jpg"
+cover: "/assets/images/posts/bINESHAFZA.IR(1).jpg"
 tags:
 - toastmasters
 - classes
