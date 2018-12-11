@@ -1,8 +1,8 @@
 ---
 title: Business English
 author: bineshafza
-date: 2018-11-23 16:21:36 +0330
-cover: "/assets/images/posts/Business-English.jpg"
+date: 2018-11-23 12:51:36 +0000
+cover: "/assets/images/posts/Business English(2).png"
 tags:
 - classes
 
