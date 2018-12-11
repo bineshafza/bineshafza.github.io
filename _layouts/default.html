@@ -81,19 +81,19 @@
                         include svg/telegram.html %}</a>
                     {% endif %}
                     {% if site.facebook %}
-                    <a class="social-link social-link-fb" href="https://telegram.me/{{ site.facebook }}" target="_blank"
+                    <a class="social-link social-link-fb" href="https://facebook.com/{{ site.facebook }}" target="_blank"
                         rel="noopener">{%
                         include svg/facebook.html %}</a>
                     {% endif %}
                     {% if site.twitter %}
-                    <a class="social-link social-link-tw" href="https://telegram.me/{{ site.twitter }}" target="_blank"
+                    <a class="social-link social-link-tw" href="https://twitter.com/{{ site.twitter }}" target="_blank"
                         rel="noopener">{%
                         include svg/twitter.html %}</a>
                     {% endif %}
                     {% if site.linkedin %}
-                    <a class="social-link social-link-in" href="https://telegram.me/{{ site.linkedin }}" target="_blank"
+                    <a class="social-link social-link-li" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"
                         rel="noopener">{%
-                        include svg/linkdin.html %}</a>
+                        include svg/linkedin.html %}</a>
                     {% endif %}
                 </nav>
             </div>
@@ -117,7 +117,16 @@
     </div>
     {% endif %}
 
-    <!-- highlight.js -->
+
+
+  <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+   
+    <!-- highlight.js 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -125,14 +134,7 @@
                 hljs.highlightBlock(block);
             });
         });
-    </script>
-
-    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+    </script> -->
 
 
     <!-- Paginator increased to "infinit" in _config.yml -->
