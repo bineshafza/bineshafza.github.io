@@ -1,6 +1,6 @@
 ---
 title: Business English
-author: bineshafza
+author: " "
 date: 2018-11-23 12:51:36 +0000
 cover: "/assets/images/posts/BusinessEnglish2.png"
 tags:
