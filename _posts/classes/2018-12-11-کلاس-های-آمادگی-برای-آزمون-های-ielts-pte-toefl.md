@@ -1,6 +1,6 @@
 ---
 title: کلاس های آمادگی برای آزمون های IELTS/PTE/TOEFL
-author: bineshafza
+author: ''
 date: 2018-12-11 13:13:10 +0000
 cover: "/assets/images/posts/photo_۲۰۱۸-۱۲-۱۳_۱۴-۱۸-۳۱.jpg"
 tags: []
