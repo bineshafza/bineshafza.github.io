@@ -125,16 +125,52 @@ defaults:
       catname: وبلاگ
   # Classes
   - scope:
-      path: "_posts/classes"
+      path: "_posts/courses"
       type: posts
     values:
       class: post-template
       navigation: True
       layout: post
       current: post
-      permalink: /classes/:title
-      category: classes
+      permalink: /courses/:title
+      category: courses
       catname: کلاس‌ها
+  # Podcasts
+  - scope:
+      path: "_posts/podcasts"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /podcasts/:title
+      category: podcasts
+      catname: پادکست‌ها
+  # Articles
+  - scope:
+      path: "_posts/articles"
+      type: posts
+    values:
+      class: post-template
+      navigation: True
+      layout: post
+      current: post
+      permalink: /articles/:title
+      category: articles
+      catname: مقالات
+  #Articles
+  - scope:
+      path: "_posts/multimedia"
+      type: posts
+    values:
+     class: post-template
+     navigation: True
+     layout: post
+     current: post
+     permalink: /multimedia/:title
+     category: multimedia
+     catname: چند‌رسانه‌ای
 
 
 image_optim:
