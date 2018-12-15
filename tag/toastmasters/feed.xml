@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://bineshafza.ir/tag/toastmasters/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://bineshafza.ir/" rel="alternate" type="text/html" />
-  <updated>2018-12-16T01:49:50+03:30</updated>
+  <updated>2018-12-16T02:29:40+03:30</updated>
   <id>https://bineshafza.ir/tag/toastmasters/feed.xml</id>
 
   
@@ -37,11 +37,11 @@
   
     <entry>
       <title type="html">Toastmasters</title>
-      <link href="https://bineshafza.ir/classes/Toastmasters" rel="alternate" type="text/html" title="Toastmasters" />
+      <link href="https://bineshafza.ir/courses/Toastmasters" rel="alternate" type="text/html" title="Toastmasters" />
       <published>2018-11-23T15:48:40+03:30</published>
       <updated>2018-11-23T15:48:40+03:30</updated>
-      <id>https://bineshafza.ir/classes/Toastmasters</id>
-      <content type="html" xml:base="https://bineshafza.ir/classes/Toastmasters">&lt;p&gt;&lt;strong&gt;مکالمه تکنیکی (Toastmasters)&lt;/strong&gt;&lt;/p&gt;
+      <id>https://bineshafza.ir/courses/Toastmasters</id>
+      <content type="html" xml:base="https://bineshafza.ir/courses/Toastmasters">&lt;p&gt;&lt;strong&gt;مکالمه تکنیکی (Toastmasters)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
@@ -62,7 +62,7 @@
       </author>
 
       
-        <category term="classes" />
+        <category term="courses" />
       
 
       
