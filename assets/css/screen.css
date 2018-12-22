@@ -410,7 +410,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card {
-    flex: 1 1 300px;
+    flex: 1 1 200px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -2067,13 +2067,21 @@ Usage (In Ghost editor):
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .podcast-card{
         flex:3;
     }
   }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .slider-card{
         flex: 8;
     }
   }
+
+  .slider-card{
+    height: 400px;
+}
+
+.podcast-card{
+    height: 400px;
+}
