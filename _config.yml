@@ -123,7 +123,7 @@ defaults:
       permalink: /blog/:title
       category: blog
       catname: وبلاگ
-  # Classes
+  # Courses
   - scope:
       path: "_posts/courses"
       type: posts
@@ -159,7 +159,7 @@ defaults:
       permalink: /articles/:title
       category: articles
       catname: مقالات
-  #Articles
+  #Multimedia
   - scope:
       path: "_posts/multimedia"
       type: posts
