@@ -30,8 +30,19 @@ into the {body} of the default.hbs template -->
 <!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
+   سوالات آیلتس
 
-        <div class="post-feed">
+<details><summary>نمره بندی آیلتس چگونه است؟</summary>
+<p>
+
+### نمره بندی آیلتس
+
+نمره بندی آیلتس
+
+</p>
+</details>
+
+{%- comment -%}         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             {% assign posts = site.posts | where: "category", "IELTS" %}
             {% for post in posts %}
@@ -76,7 +87,7 @@ into the {body} of the default.hbs template -->
             </article>
         {% endfor %}
         
-        </div>
+        </div> {%- endcomment -%}
 
     </div>
 </main>
