@@ -7,7 +7,7 @@
     {% assign posts = site.posts | where: "category", "news" %}
     {% for post in posts limit:3 %}
         <div class="carousel-cell">
-            <article class="post-card {{ page.class }}{% if post.cover %} no-image{% endif %}">
+            <article class="post-card {{ page.class }}{% if post.cover %} no-image{% endif %} slider-box" dir="rtl">
                 {% if post.cover %}
                 <a class="post-card-image-link" href="{{ post.url   }}">
                     <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>

@@ -2068,20 +2068,26 @@ Usage (In Ghost editor):
 
 
 @media screen and (min-width: 800px) {
-    .podcast-card{
-        flex:3;
+    .podcast-card {
+        flex: 3;
     }
-  }
+}
+
 @media screen and (min-width: 800px) {
-    .slider-card{
+    .slider-card {
         flex: 8;
     }
-  }
+}
 
-  .slider-card{
+.slider-card {
     height: 400px;
 }
 
-.podcast-card{
+.podcast-card {
     height: 400px;
+}
+
+.slider-box {
+    height: 100%;
+    Width: 100%;
 }
