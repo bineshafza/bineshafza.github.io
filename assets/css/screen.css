@@ -2081,6 +2081,7 @@ Usage (In Ghost editor):
 
 .slider-card {
     height: 400px;
+    overflow: visible;
 }
 
 .podcast-card {
