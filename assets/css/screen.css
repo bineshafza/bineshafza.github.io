@@ -100,7 +100,7 @@ body {
 
     .home-template .site-nav {
         position: relative;
-        
+
     }
 }
 
@@ -113,7 +113,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background:#283ea791 no-repeat 50%;
+    background: #6c648bd1 no-repeat 50%;
     background-size: cover;
 }
 
@@ -566,7 +566,10 @@ The first (most recent) post in the list is styled to be bigger than the others 
     }
 }
 
-
+.index-title {
+    font-family: "Ordibehesht", "Arial";
+    font-size: 2.5rem;
+}
 
 /* 7. Single Post
 /* ---------------------------------------------------------- */
@@ -1950,6 +1953,7 @@ Usage (In Ghost editor):
 
 .site-footer-nav {
     display: flex;
+    margin-top: 20px;
 }
 
 .site-footer-nav a {
@@ -1979,9 +1983,14 @@ Usage (In Ghost editor):
     }
 
     .site-footer-nav a:first-child {
-        margin-left: 0;
+        margin-right: 0;
     }
 }
+
+.site-footer-map {
+    padding-top: 25px;
+}
+
 /* 12. Index Cards
 /* ---------------------------------------------------------- */
 .indx-card {
@@ -2252,4 +2261,13 @@ Usage (In Ghost editor):
 
 .offcanvas-overlay-close:hover {
     cursor: default;
+}
+
+.round-links{
+color: black;
+display: inline-block;
+border-radius: 85px;
+padding-left: 5px;
+padding-right: 5px;
+margin-top: 10px;
 }

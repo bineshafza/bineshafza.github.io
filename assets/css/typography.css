@@ -2,6 +2,7 @@
     font-family: Ordibehesht;
     src: url('../fonts/Ordibehesht/Ordibehesht.ttf') format('truetype');
     font-weight: bold;
+    unicode-range: 0600—06FF;
   }
   
   @font-face {
