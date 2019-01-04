@@ -1,11 +1,21 @@
 <div id="offcanvas" class="offcanvas-overlay">
-    <a class="offcanvas-overlay-close" href="#courses"></a>
+    <a class="offcanvas-overlay-close" id="off-close" href="#"></a>
     <div class="offcanvas-overlay-content">
         {% if site.logo %}
         <img class="offcanvas-overlay-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
         {% endif %}
-        <h1 class="offcanvas-overlay-title">Subscribe to {{ site.title }}</h1>
-        <p class="offcanvass-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered
-            straight to your inbox</p>
+        <h1 class="offcanvas-overlay-title" id="off-title">اطلاعات</h1>
+        <p class="offcanvass-overlay-description" id="off-desc">در این بخش اطلاعات مربوط به بخش‌های مختلف قرار می‌گیرد</p>
     </div>
 </div>
+<script>
+    function offUpdate(arr) {
+        document.getElementById("off-close").href = "#"+arr[0];
+        document.getElementById("off-desc").innerHTML = arr[1];
+        document.getElementById("off-title").innerHTML = arr[2];
+        return false;
+    }
+
+    var offIeltsInfo = ["courses","اطلاعات بیشتر می‌خواهم","اطلاعات بیشتر درباره IELTS"]
+    var offIeltsReg = ["courses","می‌خواهم ثبت‌نام کنم","اطلاعات ثبت‌نام"]
+</script>
