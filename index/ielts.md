@@ -1,21 +1,28 @@
 ---
 layout: page
 current: about
-class: 'page-template'
-subclass: 'post page'
-navigation: True
-permalink: /IELTS
-logo: /assets/images/ghost.png
+class: page-template
+subclass: post page
+navigation: true
+permalink: "/IELTS"
+logo: "/assets/images/ghost.png"
+
 ---
 # سوالات آیلتس
 
-<details><summary>نمره بندی آیلتس چگونه است؟</summary>
-<p>
+<details><summary>سوال یک</summary> <p>
 
-### نمره بندی آیلتس
-
-نمره بندی آیلتس
+جواب یک
 
 </p>
 </details>
 
+<details><summary>سوال دو</summary> <p>
+
+جواب دو
+
+</p>
+
+</details>
+
+<a href="/register"> ثبت نام </a>
