@@ -100,7 +100,7 @@ body {
 
     .home-template .site-nav {
         position: relative;
-        top: -70px;
+
     }
 }
 
@@ -113,7 +113,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: #85a2a4 no-repeat center center;
+    background: #6c648bd1 no-repeat 50%;
     background-size: cover;
 }
 
@@ -411,6 +411,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card {
     flex: 1 1 200px;
+    opacity: 0.85;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -427,6 +428,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.10), 0 3px 16px rgba(39, 44, 49, 0.07);
     transition: all 0.3s ease;
     transform: translate3D(0, -1px, 0);
+    opacity: 1;
 }
 
 .post-card-image-link {
@@ -564,7 +566,10 @@ The first (most recent) post in the list is styled to be bigger than the others 
     }
 }
 
-
+.index-title {
+    font-family: "Ordibehesht", "Arial";
+    font-size: 2.5rem;
+}
 
 /* 7. Single Post
 /* ---------------------------------------------------------- */
@@ -1948,6 +1953,7 @@ Usage (In Ghost editor):
 
 .site-footer-nav {
     display: flex;
+    margin-top: 20px;
 }
 
 .site-footer-nav a {
@@ -1977,10 +1983,16 @@ Usage (In Ghost editor):
     }
 
     .site-footer-nav a:first-child {
-        margin-left: 0;
+        margin-right: 0;
     }
 }
 
+.site-footer-map {
+    padding-top: 25px;
+}
+
+/* 12. Index Cards
+/* ---------------------------------------------------------- */
 .indx-card {
     flex: 1 1 300px;
     display: flex;
@@ -2068,20 +2080,194 @@ Usage (In Ghost editor):
 
 
 @media screen and (min-width: 800px) {
-    .podcast-card{
-        flex:3;
+    .podcast-card {
+        flex: 3;
     }
-  }
+}
+
 @media screen and (min-width: 800px) {
-    .slider-card{
+    .slider-card {
         flex: 8;
     }
-  }
+}
 
-  .slider-card{
+.slider-card {
+    height: 400px;
+    overflow: visible;
+}
+
+.podcast-card {
     height: 400px;
 }
 
-.podcast-card{
-    height: 400px;
+.slider-box {
+    height: 100%;
+    Width: 100%;
+}
+
+/* 13. Off-canvas
+/* ---------------------------------------------------------- */
+.offcanvas-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 25, 40, 0.97);
+    opacity: 0;
+    transition: opacity 200ms ease-in;
+    pointer-events: none;
+
+    backdrop-filter: blur(3px);
+}
+
+.offcanvas-overlay:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.offcanvas-overlay-content {
+    position: relative;
+    z-index: 9999;
+    margin: 0 0 5vw 0;
+    padding: 4vw;
+    color: #fff;
+    text-align: center;
+}
+
+.offcanvas-overlay-logo {
+    position: fixed;
+    top: 23px;
+    left: 30px;
+    height: 30px;
+}
+
+.offcanvas-overlay-title {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    font-size: 6rem;
+    line-height: 1.15em;
+}
+
+.offcanvas-overlay-description {
+    margin: 0 auto 50px;
+    max-width: 650px;
+    font-family: "Sahel", Georgia, serif;
+    font-size: 3rem;
+    line-height: 1.3em;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.offcanvas-overlay form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.offcanvas-overlay .form-group {
+    flex-grow: 1;
+}
+
+.offcanvas-overlay .offcanvas-email {
+    display: block;
+    padding: 14px 20px;
+    width: 100%;
+    border: none;
+    color: var(--midgrey);
+    font-size: 2rem;
+    line-height: 1em;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    user-select: text;
+    border-radius: 8px;
+    transition: border-color 0.15s linear;
+
+    -webkit-appearance: none;
+}
+
+.subscribe-email:focus {
+    outline: 0;
+    border-color: color(var(--lightgrey) l(-2%));
+}
+
+.offcanvas-overlay button {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 0 25px;
+    height: 52px;
+    outline: none;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 37px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+    background: linear-gradient(color(var(--blue) whiteness(+7%)),
+        color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
+        color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
+        color(var(--blue) lightness(-4%) saturation(-10%)));
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px inset rgba(0, 0, 0, 0.14);
+
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.offcanvas-overlay button:active,
+.offcanvas-overlay button:focus {
+    background: color(var(--blue) lightness(-9%) saturation(-10%));
+}
+
+.offcanvas-overlay-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+.offcanvas-overlay-close:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    opacity: 0.8;
+    transform: rotate(45deg);
+}
+
+.offcanvas-overlay-close:after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    opacity: 0.8;
+    transform: rotate(-45deg);
+}
+
+.offcanvas-overlay-close:hover {
+    cursor: default;
+}
+
+.round-links{
+color: black;
+display: inline-block;
+border-radius: 85px;
+padding-left: 5px;
+padding-right: 5px;
+margin-top: 10px;
 }

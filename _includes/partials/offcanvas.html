@@ -1,0 +1,42 @@
+<div id="offcanvas" class="offcanvas-overlay">
+    <a class="offcanvas-overlay-close" id="off-close" href="#"></a>
+    <div class="offcanvas-overlay-content">
+        {% if site.logo %}
+        <img class="offcanvas-overlay-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
+        {% endif %}
+        <h1 class="offcanvas-overlay-title" id="off-title">اطلاعات</h1>
+        <p class="offcanvass-overlay-description" id="off-desc">در این بخش اطلاعات مربوط به بخش‌های مختلف قرار می‌گیرد</p>
+    </div>
+</div>
+<script>
+    function offUpdate(arr) {
+        document.getElementById("off-close").href = "#"+arr[0];
+        document.getElementById("off-desc").innerHTML = arr[1];
+        document.getElementById("off-title").innerHTML = arr[2];
+        return false;
+    }
+
+    var offIeltsInfo = ["courses-ielts","اطلاعات بیشتر می‌خواهم","اطلاعات بیشتر درباره IELTS"]
+    var offIeltsReg = ["courses-ielts","می‌خواهم ثبت‌نام کنم","اطلاعات ثبت‌نام"]
+    var offIeltsWriting = ["courses-ielts","با کلیک بر روی لینک زیر و آپلود Writing خود می‌توانید از اشتباهات نوشتاری خود آگاه شوید.","نمره آیلتس من چند است؟"]
+    var offPTE = ["courses-exams","می‌خواهم ثبت‌نام کنم","PTE"]
+    var offMSRT = ["courses-exams","می‌خواهم ثبت‌نام کنم","MSRT"]
+    var offTOEFL = ["courses-exams","می‌خواهم ثبت‌نام کنم","TOEFL"]
+    var offEng = ["courses-foreign","می‌خواهم ثبت‌نام کنم","انگلیسی"]
+    var offFre = ["courses-foreign","می‌خواهم ثبت‌نام کنم","فرانسه"]
+    var offSpa = ["courses-foreign","می‌خواهم ثبت‌نام کنم","اسپانیایی"]
+    var offGer = ["courses-foreign","می‌خواهم ثبت‌نام کنم","آلمانی"]
+    var offJap = ["courses-foreign","می‌خواهم ثبت‌نام کنم","ژاپنی"]
+    var offBEC = ["courses-BEC","می‌خواهم ثبت‌نام کنم","اطلاعات ثبت‌نام"]
+    var offSolSelf = ["special-schooloflife","خویشتن","خویشتن"]
+    var offSolRelation = ["special-schooloflife","رابطه","رابطه"]
+    var offSolWork = ["special-schooloflife","کار","کار"]
+    var offSolHistory = ["special-schooloflife","تاریخ عقاید","تاریخ"]
+    var offSolCulture = ["special-schooloflife","فرهنگ","فرهنگ"]
+    var offToastNarration = ["special-toastmasters","اطلاع‌رسانی و قصه‌گویی","اطلاع‌رسانی و قصه‌گویی"]
+    var offToastHumor = ["special-toastmasters","بیان طنزآلود","بیان طنزآلود"]
+    var offToastPersuasion = ["special-toastmasters","متقاعدسازی","متقاعدسازی"]
+    var offToastReport = ["special-toastmasters","گزارش‌دهی","گزارش‌دهی"]
+    var offCinema = ["special-cinema-lyrics","دوره‌های بررسی آثار کارگردان‌های بزرگ","دوره‌های بررسی آثار کارگردان‌های بزرگ"]
+    var offLyrics = ["special-cinema-lyrics","دوره‌های بررسی آثار ماندگار موسیقی","دوره‌های بررسی آثار ماندگار موسیقی"]
+</script>
