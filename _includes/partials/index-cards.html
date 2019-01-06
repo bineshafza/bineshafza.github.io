@@ -36,10 +36,10 @@
 <div>
     <h2 class="index-title">دوره‌های آموزشی</h2>
     <div class="index-feed">
-        <article class="post-card no-image"id="courses-ielts" >
+        <article class="post-card"id="courses-ielts" >
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url}}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/IELTS.jpg)"></div>
             </a>
             {% endif %}
             <div class="post-card-content">
@@ -49,9 +49,9 @@
                         <h2 class="post-card-title">آیلتس</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="#offcanvas" onclick='offUpdate(offIeltsInfo)'>اطلاعات می‌خواهم.</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offIeltsReg)'>قصد ثبت‌نام دارم.</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offIeltsWriting)'>نمره Writing آیلتس من چند است؟</a></p>
+                        <p><a href="/IELTS/">اطلاعات می‌خواهم.</a></p>
+                        <p><a href="/register">ثبت‌نام.</a></p>
+                        <p><a href="/IELTS/Writing">نمره Writing آیلتس من چند است؟</a></p>
                     </section>
                 </div>
             </div>
@@ -69,9 +69,9 @@
                         <h2 class="post-card-title">آزمون‌های بین‌المللی</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="#offcanvas" onclick='offUpdate(offPTE)'>PTE</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offMSRT)'>MSRT</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offTOEFL)'>TOEFL</a></p>
+                        <p><a href="/courses/">PTE</a></p>
+                        <p><a href="/courses/">MSRT</a></p>
+                        <p><a href="/courses/">TOEFL</a></p>
                     </section>
                 </div>
             </div>
@@ -90,11 +90,11 @@
                     </header>
                     <section class="post-card-excerpt">
                         <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-                        <p><a href="#offcanvas" onclick='offUpdate(offEng)'>انگلیسی <i class="em em-flag-england"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offFre)'>فرانسوی <i class="em em-fr"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offGer)'>آلمانی <i class="em em-de"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offSpa)'>اسپانیایی <i class="em em-es"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offJap)'>ژاپنی <i class="em em-jp"></i></a></p>
+                        <p><a href="/courses/">انگلیسی <i class="em em-flag-england"></i></a></p>
+                        <p><a href="/courses/">فرانسوی <i class="em em-fr"></i></a></p>
+                        <p><a href="/courses/">آلمانی <i class="em em-de"></i></a></p>
+                        <p><a href="/courses/">اسپانیایی <i class="em em-es"></i></a></p>
+                        <p><a href="/courses/">ژاپنی <i class="em em-jp"></i></a></p>
                     </section>
                 </div>
             </div>
@@ -112,15 +112,15 @@
                         <h2 class="post-card-title">انگلیسی برای کسب‌و‌کار</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="#offcanvas" onclick='offUpdate(offBEC)'>دوره‌های آموزشی برای فضای کسب و کار بازرگانی</a></p>
+                        <p><a href="#offcanvas">دوره‌های آموزشی برای فضای کسب و کار بازرگانی</a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image">
+        <article class="post-card">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/mockpic.jpg)"></div>
             </a>
             {% endif %}
             <div class="post-card-content">
@@ -163,7 +163,7 @@
     <div class="index-feed">
         <article class="post-card" id="special-schooloflife">
             <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url(/assets/images/posts/schoolof.jpg)"></div>
+           <!--      <div class="post-card-image" style="background-image: url(/assets/images/posts/schoolof.jpg)"></div> -->
             </a>
 
             <div class="post-card-content">
@@ -185,10 +185,10 @@
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="special-toastmasters">
+        <article class="post-card" id="special-toastmasters">
             {% if post.cover %}
             <div class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/toastm.jpg)"></div>
             </a>
             {% endif %}
             <div class="post-card-content">
