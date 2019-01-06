@@ -5,7 +5,7 @@
             {%- include partials/news-slider.html -%}
 
         </article>
-        <article class="post-card no-image podcast-card">
+        <article class="indx-card no-image podcast-card">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -36,12 +36,12 @@
 <div>
     <h2 class="index-title">دوره‌های آموزشی</h2>
     <div class="index-feed">
-        <article class="post-card"id="courses-ielts" >
-            {% if post.cover %}
+        <article class="indx-card"id="courses-ielts" >
+            
             <a class="post-card-image-link" href="{{ post.url}}">
-                <div class="post-card-image" style="background-image: url(/assets/images/posts/IELTS.jpg)"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/IELTS.jpg); background-size: contain;"></div>
             </a>
-            {% endif %}
+           
             <div class="post-card-content">
                 <div class="post-card-content-link" href="{{ post.url}}">
                     <header class="post-card-header">
@@ -51,12 +51,12 @@
                     <section class="post-card-excerpt">
                         <p><a href="/IELTS/">اطلاعات می‌خواهم.</a></p>
                         <p><a href="/register">ثبت‌نام.</a></p>
-                        <p><a href="/IELTS/Writing">نمره Writing آیلتس من چند است؟</a></p>
+                        <p><a href="/IELTS/writing-correction">نمره Writing آیلتس من چند است؟</a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="courses-exams">
+        <article class="indx-card no-image" id="courses-exams">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -69,14 +69,14 @@
                         <h2 class="post-card-title">آزمون‌های بین‌المللی</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="/courses/">PTE</a></p>
-                        <p><a href="/courses/">MSRT</a></p>
+                        <p><a href="/courses/کلاس-های-آمادگی-برای-آزمون-های-ielts-pte-toefl">PTE</a></p>
+                        <p><a href="/courses/ept-msrt">MSRT</a></p>
                         <p><a href="/courses/">TOEFL</a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="courses-foreign">
+        <article class="indx-card no-image" id="courses-foreign">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -90,16 +90,16 @@
                     </header>
                     <section class="post-card-excerpt">
                         <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-                        <p><a href="/courses/">انگلیسی <i class="em em-flag-england"></i></a></p>
-                        <p><a href="/courses/">فرانسوی <i class="em em-fr"></i></a></p>
-                        <p><a href="/courses/">آلمانی <i class="em em-de"></i></a></p>
-                        <p><a href="/courses/">اسپانیایی <i class="em em-es"></i></a></p>
-                        <p><a href="/courses/">ژاپنی <i class="em em-jp"></i></a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی">انگلیسی <i class="em em-flag-england"></i></a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی">فرانسوی <i class="em em-fr"></i></a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی">آلمانی <i class="em em-de"></i></a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی">اسپانیایی <i class="em em-es"></i></a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی">ژاپنی <i class="em em-jp"></i></a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="courses-BEC">
+        <article class="indx-card no-image" id="courses-BEC">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -112,17 +112,17 @@
                         <h2 class="post-card-title">انگلیسی برای کسب‌و‌کار</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="#offcanvas">دوره‌های آموزشی برای فضای کسب و کار بازرگانی</a></p>
+                        <p><a href="/courses/Business-English">دوره‌های آموزشی برای فضای کسب و کار بازرگانی</a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card">
-            {% if post.cover %}
+        <article class="indx-card">
+ 
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url(/assets/images/posts/mockpic.jpg)"></div>
             </a>
-            {% endif %}
+       
             <div class="post-card-content">
                 <div class="post-card-content-link">
                     <header class="post-card-header">
@@ -135,7 +135,7 @@
                 </div>
             </div>
         </article>
-        <article class="post-card no-image">
+        <article class="indx-card no-image">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -161,7 +161,7 @@
 <div>
     <h2 class="index-title">دوره‌های ویژه</h2>
     <div class="index-feed">
-        <article class="post-card" id="special-schooloflife">
+        <article class="indx-card" id="special-schooloflife">
             <a class="post-card-image-link" href="{{ post.url   }}">
            <!--      <div class="post-card-image" style="background-image: url(/assets/images/posts/schoolof.jpg)"></div> -->
             </a>
@@ -185,12 +185,12 @@
                 </div>
             </div>
         </article>
-        <article class="post-card" id="special-toastmasters">
-            {% if post.cover %}
+        <article class="indx-card" id="special-toastmasters">
+            
             <div class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url(/assets/images/posts/toastm.jpg)"></div>
             </a>
-            {% endif %}
+         
             <div class="post-card-content">
                 <div class="post-card-content-link" href="{{ post.url   }}">
                     <header class="post-card-header">
@@ -210,7 +210,7 @@
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="special-cinema-lyrics">
+        <article class="indx-card no-image" id="special-cinema-lyrics">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -240,7 +240,7 @@
     <div class="index-feed">
         {% assign posts = site.posts | where: "category", "articles" %}
         {% for post in posts limit:1 %}
-        <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
+        <article class="indx-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -271,7 +271,7 @@
         {% endfor %}
         {% assign posts = site.posts | where: "category", "multimedia" %}
         {% for post in posts limit:1 %}
-        <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
+        <article class="indx-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
