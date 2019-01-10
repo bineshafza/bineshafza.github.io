@@ -2,7 +2,7 @@
 title: TOASTMASTERS
 author: " "
 date: 2019-01-10 14:26:02 +0330
-cover: "/assets/images/posts/photo_۲۰۱۹-۰۱-۰۵_۱۸-۵۰-۱۲.jpg"
+cover: "/assets/images/posts/TOAST.jpg"
 tags: []
 
 ---
