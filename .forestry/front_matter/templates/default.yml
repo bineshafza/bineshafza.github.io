@@ -27,3 +27,5 @@ fields:
   type: text
   hidden: false
   default: bineshafza
+pages:
+- _posts/news/2019-01-10-school-of-life.md
