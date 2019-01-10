@@ -1,6 +1,11 @@
 ---
-title: French-Language
-author: bineshafza
+title: French Language
+author: ''
 date: 2019-01-10 17:30:58 +0330
+cover: ''
+tags: []
 
 ---
+French Language Information
+
+[Register](https://bineshafza.ir/register)
