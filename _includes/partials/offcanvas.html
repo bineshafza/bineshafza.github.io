@@ -5,7 +5,7 @@
         <img class="offcanvas-overlay-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
         {% endif %}
         <h1 class="offcanvas-overlay-title" id="off-title">اطلاعات</h1>
-        <p class="offcanvas-overlay-description" id="off-desc">در این بخش اطلاعات مربوط به بخش‌های مختلف قرار می‌گیرد</p>
+        <p class="offcanvas-overlay-description" id="off-desc"><img id="off-photo" src="/assets/images/posts/IELTS.jpg" alt="{{ site.title }}" /></p>
         <a href="/register" class="round-links" style="background-color: rgb(206, 255, 255)">ثبت‌نام</a>
     </div>
 </div>
@@ -14,6 +14,7 @@
         document.getElementById("off-close").href = "#" + arr[0];
         document.getElementById("off-desc").innerHTML = arr[1];
         document.getElementById("off-title").innerHTML = arr[2];
+        document.getElementById("off-img").src="../template/save.png";
         return false;
     }
 
