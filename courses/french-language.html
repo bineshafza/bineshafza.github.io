@@ -501,35 +501,33 @@ into the {body} of the default.hbs template -->
 </div>
 <script>
     function offUpdate(arr) {
-        document.getElementById("off-close").href = "#"+arr[0];
+        document.getElementById("off-close").href = "#" + arr[0];
         document.getElementById("off-desc").innerHTML = arr[1];
         document.getElementById("off-title").innerHTML = arr[2];
         return false;
     }
 
-    var offIeltsInfo = ["courses-ielts","اطلاعات بیشتر می‌خواهم","اطلاعات بیشتر درباره IELTS"]
-    var offIeltsReg = ["courses-ielts","می‌خواهم ثبت‌نام کنم","اطلاعات ثبت‌نام"]
-    var offIeltsWriting = ["courses-ielts","با کلیک بر روی لینک زیر و آپلود Writing خود می‌توانید از اشتباهات نوشتاری خود آگاه شوید.","نمره آیلتس من چند است؟"]
-    var offPTE = ["courses-exams","می‌خواهم ثبت‌نام کنم","PTE"]
-    var offMSRT = ["courses-exams","می‌خواهم ثبت‌نام کنم","MSRT"]
-    var offTOEFL = ["courses-exams","می‌خواهم ثبت‌نام کنم","TOEFL"]
-    var offEng = ["courses-foreign","می‌خواهم ثبت‌نام کنم","انگلیسی"]
-    var offFre = ["courses-foreign","می‌خواهم ثبت‌نام کنم","فرانسه"]
-    var offSpa = ["courses-foreign","می‌خواهم ثبت‌نام کنم","اسپانیایی"]
-    var offGer = ["courses-foreign","می‌خواهم ثبت‌نام کنم","آلمانی"]
-    var offJap = ["courses-foreign","می‌خواهم ثبت‌نام کنم","ژاپنی"]
-    var offBEC = ["courses-BEC","می‌خواهم ثبت‌نام کنم","اطلاعات ثبت‌نام"]
-    var offSolSelf = ["special-schooloflife","خویشتن","خویشتن"]
-    var offSolRelation = ["special-schooloflife","رابطه","رابطه"]
-    var offSolWork = ["special-schooloflife","کار","کار"]
-    var offSolHistory = ["special-schooloflife","تاریخ عقاید","تاریخ"]
-    var offSolCulture = ["special-schooloflife","فرهنگ","فرهنگ"]
-    var offToastNarration = ["special-toastmasters","اطلاع‌رسانی و قصه‌گویی","اطلاع‌رسانی و قصه‌گویی"]
-    var offToastHumor = ["special-toastmasters","بیان طنزآلود","بیان طنزآلود"]
-    var offToastPersuasion = ["special-toastmasters","متقاعدسازی","متقاعدسازی"]
-    var offToastReport = ["special-toastmasters","گزارش‌دهی","گزارش‌دهی"]
-    var offCinema = ["special-cinema-lyrics","دوره‌های بررسی آثار کارگردان‌های بزرگ","دوره‌های بررسی آثار کارگردان‌های بزرگ"]
-    var offLyrics = ["special-cinema-lyrics","دوره‌های بررسی آثار ماندگار موسیقی","دوره‌های بررسی آثار ماندگار موسیقی"]
+    var selfDesc =
+        "<p>در دوره «خویشتن» تلاش می‌کنیم به پرسش اساسی «من که هستم؟» بیاندیشیم و پاسخ‌های بهتری برای آن بیابیم. برای این هدف دوران کودکی و زندگی خانوادگیمان را واکاوای می‌کنیم. درباره عواطف و افکار پیچیده و غامضی که تجربه می‌کنیم صحبت می‌کنیم. هدف ما از این کار یافتن شیوه‌های بهتر برای حفظ آرامش و کسب دانش بیشتر درباره خودمان است.<br />دوره خویشتن به طور کلی مباحث زیر را در بر می‌گیرد:<br />آرامش<br />خودشناسی<br />فضائل شخصیتی<br />روحیه<br />مهارت‌های عاطفی<br />اعتماد به نفس<br /></p>"
+    var relDesc =
+        "<p>در دوره «رابطه» هدف ما این است که روابطمان را درک کنیم و کیفیت روابطمان را بالا ببریم. این شامل روابط خانوادگی، کاری، دوستانه و عشقی است. ما در این دوره درباره تاثیر روابط و عملکردمان در آنها با هم گفت و گو می‌کنیم. به دلایل موفقیتمان در بعضی از روابط و شکستمان در برخی دیگر می‌پردازیم. همچنین ایده‌هایی که ذهنیت ما را از مفاهیمی مانند عشق، خیانت، و خوشبختی می‌سازند با کمک گرفتن از ایده‌های روانشناسی و تاریخ بازبینی می‌کنیم. با گفت و گو و پرسش درباره روابطمان، کیفیت ارتباطمان را با خانواده، دوستان و همکاران بهبود می‌بخشیم.<br />مباحثی که در دوره «رابطه» به آنها می‌پردازیم عبارتند از:<br />مفهوم عشق و خیانت<br />رمانتیسیزم<br />مشاجرات و اختلافات<br />روابط جنسی<br />دشواری‌های فرزندان<br />دشواری‌های والدین<br />انتخاب شریک زندگی<br />بلوغ<br /></p>"
+
+
+    var offSolSelf = ["special-schooloflife", selfDesc, "خویشتن"]
+    var offSolRelation = ["special-schooloflife", relDesc, "رابطه"]
+    var offSolWork = ["special-schooloflife", "کار", "کار"]
+    var offSolHistory = ["special-schooloflife", "تاریخ عقاید", "تاریخ"]
+    var offSolCulture = ["special-schooloflife", "فرهنگ", "فرهنگ"]
+    var offToastNarration = ["special-toastmasters", "اطلاع‌رسانی و قصه‌گویی", "اطلاع‌رسانی و قصه‌گویی"]
+    var offToastHumor = ["special-toastmasters", "بیان طنزآلود", "بیان طنزآلود"]
+    var offToastPersuasion = ["special-toastmasters", "متقاعدسازی", "متقاعدسازی"]
+    var offToastReport = ["special-toastmasters", "گزارش‌دهی", "گزارش‌دهی"]
+    var offCinema = ["special-cinema-lyrics", "دوره‌های بررسی آثار کارگردان‌های بزرگ",
+        "دوره‌های بررسی آثار کارگردان‌های بزرگ"
+    ]
+    var offLyrics = ["special-cinema-lyrics", "دوره‌های بررسی آثار ماندگار موسیقی",
+        "دوره‌های بررسی آثار ماندگار موسیقی"
+    ]
 </script>
 
 
