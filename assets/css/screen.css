@@ -2155,12 +2155,16 @@ Usage (In Ghost editor):
 
 .offcanvas-overlay-description {
     margin: 0 auto 50px;
-    max-width: 650px;
+    max-width: 750px;
     font-family: "Sahel", Georgia, serif;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.3em;
     font-weight: 300;
     opacity: 0.8;
+    overflow-y: auto;
+    width: 80vw;
+    height: 250px;
+
 }
 
 .offcanvas-overlay form {
