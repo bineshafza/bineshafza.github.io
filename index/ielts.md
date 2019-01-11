@@ -76,4 +76,4 @@ logo: "/assets/images/ghost.png"
 </p>
 </details>
 
-<a href="/register"> ثبت نام </a>
+<a href="/register" class="placement-test"> ثبت نام </a>
