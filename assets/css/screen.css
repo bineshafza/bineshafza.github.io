@@ -2282,3 +2282,12 @@ margin-top: 10px;
     background: var(--lightgrey) no-repeat center center;
     background-size: cover;
 }
+.placement-test{
+        color: #000;
+        display: inline-block;
+        border-radius: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;;
+    }
