@@ -2,8 +2,9 @@
 title: بررسی آثار ماندگار موسیقی
 author: " "
 date: 2019-01-10 10:25:54 +0000
-cover: "/assets/images/posts/photo_۲۰۱۹-۰۱-۰۱_۱۷-۰۷-۱۰.jpg"
-tags: []
+cover: "/assets/images/posts/Understanding Lyrics (1).png"
+tags:
+- News
 
 ---
 دوره بررسی آثار ماندگار موسیقی
