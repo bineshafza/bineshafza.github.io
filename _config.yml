@@ -6,7 +6,7 @@ language: 'en-uk'
 timezone: Asia/Tehran
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ""
-url: https://bineshafza.ir
+url: https://bineshafza.ir/
 
 # Website info
 title: بینش‌افزا
