@@ -97,6 +97,7 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+  - _image_optim_cache.yml
 
 defaults:
   # News
