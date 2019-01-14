@@ -50,7 +50,21 @@ into the {body} of the default.hbs template -->
                 <div class="kg-card-markdown">
                     {{ content }}
                 </div>
+                {% if site.comments or page.comments %}
+                <section class="post-full-comments">
+                    <div id="google-comments"></div>
+                    <script src="https://apis.google.com/js/plusone.js"></script>
+  
+                    <div class="g-comments"
+                        data-href="{{site.url}}{{page.url}}"
+                        data-width="642"
+                        data-first_party_property="BLOGGER"
+                        data-view_type="FILTERED_POSTMOD">
+                    </div>
+                </section>
+            {% endif %}
             </section>
+
 
             <!-- Email subscribe form at the bottom of the page -->
             {% if site.subscribers %}
@@ -86,28 +100,6 @@ into the {body} of the default.hbs template -->
                 {% endfor %}
                 <!-- /author  -->
             </footer>
-
-            <!-- If you use Disqus comments, just uncomment this block.
-            The only thing you need to change is "test-apkdzgmqhj" - which
-            should be replaced with your own Disqus site-id. -->
-            {% if site.disqus or page.disqus %}
-                <section class="post-full-comments">
-                    <div id="disqus_thread"></div>
-                    <script>
-                        var disqus_config = function () {
-                            this.page.url = '{{ site.url }}';
-                            this.page.identifier = '{{ site.title }}';
-                        };
-                        (function() {
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                </section>
-            {% endif %}
-
         </article>
 
     </div>

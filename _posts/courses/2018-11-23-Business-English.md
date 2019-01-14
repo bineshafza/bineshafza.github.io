@@ -2,7 +2,7 @@
 title: Business English
 author: " "
 date: 2018-11-23 12:51:36 +0000
-cover: "/assets/images/posts/14e55d4883b7adbe47a84c3cc31038f6.jpg"
+cover: "/assets/images/posts/BEC.jpg"
 tags:
 - classes
 
