@@ -6,6 +6,6 @@ cover: ''
 tags: []
 
 ---
-French Language Information
+French Language Informatio
 
 [Register](https://bineshafza.ir/register)
