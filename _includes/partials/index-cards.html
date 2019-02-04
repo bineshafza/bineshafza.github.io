@@ -238,7 +238,7 @@
 <div>
     <h2 class="index-title">مطالب آموزشی</h2>
     <div class="index-feed">
-        {% assign posts = site.posts | where: "category", "articles" %}
+        {% assign posts = site.posts | where: "category", "multimedia" %}
         {% for post in posts limit:1 %}
         <article class="indx-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
             {% if post.cover %}
@@ -269,9 +269,9 @@
         </article>
 
         {% endfor %}
-        {% assign posts = site.posts | where: "category", "multimedia" %}
+        {% assign posts = site.posts | where: "category", "articles" %}
         {% for post in posts limit:1 %}
-        <article class="indx-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
+        <article class="indx-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}" style="direction: ltr;">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
