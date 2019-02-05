@@ -1,9 +1,10 @@
 ---
 author: ''
 title: 'Self-Directed Learning: A Four-Step Process'
-date: 2019-02-03 00:00:00 +0330
+date: 2019-02-02 20:30:00 +0000
 cover: "/assets/images/posts/male-student-stairs.jpeg"
-tags: []
+tags:
+- Article
 
 ---
 # Self-Directed Learning: A Four-Step Process
