@@ -27,3 +27,9 @@ fields:
   type: text
   hidden: false
   default: bineshafza
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+
