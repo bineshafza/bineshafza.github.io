@@ -6,7 +6,7 @@ tags:
 cover: "/assets/images/posts/vocab.png"
 subclass: post tag-getting-started
 author: ''
-
+layout: post-ltr
 ---
 English learners can have a hard time choosing which sound to use in words containing the letter c, but the rule is actually very simple – with the usual few exceptions!
 
