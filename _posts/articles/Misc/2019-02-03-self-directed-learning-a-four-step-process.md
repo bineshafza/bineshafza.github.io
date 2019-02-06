@@ -5,7 +5,7 @@ date: 2019-02-02 20:30:00 +0000
 cover: "/assets/images/posts/male-student-stairs.jpeg"
 tags:
 - Article
-
+layout: post-ltr
 ---
 # Self-Directed Learning: A Four-Step Process
 

@@ -5,7 +5,7 @@ date: 2019-01-29 00:00:00 +0330
 cover: "/assets/images/posts/1548257000820.jpg"
 tags:
 - Article
-
+layout: post-ltr
 ---
 Why We’re All Messed Up By Our Childhoods
 

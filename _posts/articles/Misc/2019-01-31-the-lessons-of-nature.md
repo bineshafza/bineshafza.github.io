@@ -5,7 +5,7 @@ date: 2019-01-31 00:00:00 +0330
 cover: "/assets/images/posts/1548257230588.jpg"
 tags:
 - Article
-
+layout: post-ltr
 ---
 The Lessons of Nature
 
