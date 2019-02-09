@@ -5,7 +5,7 @@
             {%- include partials/news-slider.html -%}
 
         </article>
-        <article class="post-card no-image podcast-card">
+        <article class="indx-card no-image podcast-card">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -19,7 +19,7 @@
                     </header>
                     <section class="post-card-excerpt">
                         <p>در این قسمت می‌توانید آخرین پادکست بینش‌افزا را گوش کنید</p>
-                        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/512883342&color=%238b19e0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/560309073&color=%239e60cf&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
                     </section>
                 </a>
@@ -36,119 +36,111 @@
 <div>
     <h2 class="index-title">دوره‌های آموزشی</h2>
     <div class="index-feed">
-        <article class="post-card no-image"id="courses-ielts" >
-            {% if post.cover %}
-            <a class="post-card-image-link" href="{{ post.url}}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+        <article class="indx-card" id="courses-ielts">
+
+            <a class="post-card-image-link" href="/IELTS">
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/IELTS.jpg); background-size: 100% 100%;"></div>
             </a>
-            {% endif %}
+
             <div class="post-card-content">
-                <div class="post-card-content-link" href="{{ post.url}}">
+                <div class="post-card-content-link">
                     <header class="post-card-header">
-                        <span class="post-card-tags">آیلتس</span>
                         <h2 class="post-card-title">آیلتس</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="#offcanvas" onclick='offUpdate(offIeltsInfo)'>اطلاعات می‌خواهم.</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offIeltsReg)'>قصد ثبت‌نام دارم.</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offIeltsWriting)'>نمره Writing آیلتس من چند است؟</a></p>
+                        <p><a href="/IELTS">اطلاعات می‌خواهم.</a></p>
+                        <p><a href="/register">ثبت‌نام.</a></p>
+                        <p><a href="/IELTS/writing-correction">نمره Writing آیلتس من چند است؟</a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="courses-exams">
-            {% if post.cover %}
+        <article class="indx-card no-image" id="courses-exams">
             <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/test.jpg)"></div>
             </a>
-            {% endif %}
             <div class="post-card-content">
                 <div class="post-card-content-link">
                     <header class="post-card-header">
-                        <span class="post-card-tags">آزمون‌های بین‌المللی</span>
                         <h2 class="post-card-title">آزمون‌های بین‌المللی</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="#offcanvas" onclick='offUpdate(offPTE)'>PTE</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offMSRT)'>MSRT</a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offTOEFL)'>TOEFL</a></p>
+                        <p><a href="/courses/کلاس-های-آمادگی-برای-آزمون-های-ielts-pte-toefl">PTE</a></p>
+                        <p><a href="/courses/ept-msrt">EPT/MSRT</a></p>
+                        <p><a href="/courses/">TOEFL</a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="courses-foreign">
-            {% if post.cover %}
-            <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
-            </a>
-            {% endif %}
+        <article class="indx-card no-image" id="courses-foreign">
             <div class="post-card-content">
                 <div class="post-card-content-link">
                     <header class="post-card-header">
-                        <span class="post-card-tags">دوره‌های آموزشی</span>
                         <h2 class="post-card-title">زبان‌های خارجی</h2>
                     </header>
                     <section class="post-card-excerpt">
                         <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-                        <p><a href="#offcanvas" onclick='offUpdate(offEng)'>انگلیسی <i class="em em-flag-england"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offFre)'>فرانسوی <i class="em em-fr"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offGer)'>آلمانی <i class="em em-de"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offSpa)'>اسپانیایی <i class="em em-es"></i></a></p>
-                        <p><a href="#offcanvas" onclick='offUpdate(offJap)'>ژاپنی <i class="em em-jp"></i></a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-flag-england"></i> انگلیسی</a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-fr"></i> فرانسوی</a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-de"></i> آلمانی</a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-flag-tr"></i> ترکی استنابولی</a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-it"></i> ایتالیایی</a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-es"></i> اسپانیایی</a></p>
+                        <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-jp"></i> ژاپنی</a></p>
+
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="courses-BEC">
-            {% if post.cover %}
-            <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+        <article class="indx-card no-image" id="courses-BEC">
+
+            <a class="post-card-image-link" href="/courses/Business-English">
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/BEC.jpg)"></div>
             </a>
-            {% endif %}
+
             <div class="post-card-content">
                 <div class="post-card-content-link">
                     <header class="post-card-header">
-                        <span class="post-card-tags">دوره‌های آموزشی</span>
                         <h2 class="post-card-title">انگلیسی برای کسب‌و‌کار</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p><a href="#offcanvas" onclick='offUpdate(offBEC)'>دوره‌های آموزشی برای فضای کسب و کار بازرگانی</a></p>
+                        <p><a href="/courses/Business-English">دوره‌های آموزشی برای فضای کسب و کار بازرگانی</a></p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image">
-            {% if post.cover %}
+        <article class="indx-card">
+
             <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/mockpic.jpg)"></div>
             </a>
-            {% endif %}
+
             <div class="post-card-content">
                 <div class="post-card-content-link">
                     <header class="post-card-header">
-                        <span class="post-card-tags">آزمون‌های بین‌المللی</span>
                         <h2 class="post-card-title">ماک آیلتس</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p>تاریخ بعدی ماک آیلتس : ۲۲ بهمن</p>
+                        <p>تاریخ بعدی ماک آیلتس : ۱۸ بهمن</p>
+                        <a href="/mock" class="placement-test" style="margin-bottom:20px; background-color: rgb(248, 252, 21)">اطلاعات بیشتر
+                            </a>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image">
-            {% if post.cover %}
+        <article class="indx-card no-image">
             <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+               <div class="post-card-image" style="background-image: url(/assets/images/posts/placement-test-photo.jpg)"></div>
             </a>
-            {% endif %}
             <div class="post-card-content">
                 <div class="post-card-content-link">
                     <header class="post-card-header">
-                        <span class="post-card-tags">دوره‌های آموزشی</span>
                         <h2 class="post-card-title">تعیین سطح آنلاین</h2>
                     </header>
                     <section class="post-card-excerpt">
                         <p>برای اطلاع از سطح زبان خود می‌توانید به صفحه تعیین سطح آنلاین بینش‌افزا مراجعه فرمایید.</p>
+                        <a href="/placement" class="placement-test" style="margin-bottom:20px; background-color: rgb(248, 252, 21)">تعیین
+                            سطح</a>
                     </section>
                 </div>
             </div>
@@ -161,9 +153,9 @@
 <div>
     <h2 class="index-title">دوره‌های ویژه</h2>
     <div class="index-feed">
-        <article class="post-card" id="special-schooloflife">
+        <article class="indx-card" id="special-schooloflife">
             <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url(/assets/images/posts/schoolof.jpg)"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/school-of-life.jpeg)"></div>
             </a>
 
             <div class="post-card-content">
@@ -178,56 +170,64 @@
                             <a href="#offcanvas" onclick='offUpdate(offSolSelf)' class="round-links" style="background-color: rgb(206, 255, 255)">خویشتن</a>
                             <a href="#offcanvas" onclick='offUpdate(offSolRelation)' class="round-links" style="background-color:rgb(210, 252, 221)">رابطه</a>
                             <a href="#offcanvas" onclick='offUpdate(offSolWork)' class="round-links" style="background-color:rgb(248, 227, 230)">کار</a>
-                            <a href="#offcanvas" onclick='offUpdate(offSolHistory)' class="round-links" style="background-color:rgb(224, 220, 247)">تاریخ عقاید</a>
+                            <a href="#offcanvas" onclick='offUpdate(offSolHistory)' class="round-links" style="background-color:rgb(224, 220, 247)">تاریخ
+                                عقاید</a>
                             <a href="#offcanvas" onclick='offUpdate(offSolCulture)' class="round-links" style="background-color:rgb(243, 239, 202)">فرهنگ</a>
                         </p>
                     </section>
                 </div>
             </div>
         </article>
-        <article class="post-card no-image" id="special-toastmasters">
-            {% if post.cover %}
+        <article class="indx-card" id="special-toastmasters">
+
             <div class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
-            </a>
-            {% endif %}
-            <div class="post-card-content">
-                <div class="post-card-content-link" href="{{ post.url   }}">
-                    <header class="post-card-header">
-                        <span class="post-card-tags">دوره‌های ویژه</span>
-                        <h2 class="post-card-title">Toastmaster</h2>
-                    </header>
-                    <section class="post-card-excerpt">
-                        <p>در این دوره آموزشی یاد می‌گیرید که چگونه در برابر یک جمع سخنرانی کنید و با استفاده از تکنیک‌های متقعاد سازی و ...
-                           <br>
-                           <a href="#offcanvas" onclick='offUpdate(offToastNarration)' class="round-links" style="background-color:rgb(244, 210, 252)">اطلاع‌رسانی و قصه‌گویی</a>
-                           <a href="#offcanvas" onclick='offUpdate(offToastHumor)' class="round-links" style="background-color:rgb(229, 248, 227)">بیان طنزآلود</a>
-                           <a href="#offcanvas" onclick='offUpdate(offToastPersuasion)' class="round-links" style="background-color:rgb(247, 220, 234)">متقاعد‌ سازی</a>
-                           <a href="#offcanvas" onclick='offUpdate(offToastReport)' class="round-links" style="background-color:rgb(243, 202, 202)">گزارش دهی</a>
-                        </p>
-                       
-                    </section>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/toastm.jpg)"></div>
+                </a>
+
+                <div class="post-card-content">
+                    <div class="post-card-content-link" href="{{ post.url   }}">
+                        <header class="post-card-header">
+                            <span class="post-card-tags">دوره‌های ویژه</span>
+                            <h2 class="post-card-title">Toastmaster</h2>
+                        </header>
+                        <section class="post-card-excerpt">
+                            <p>در این دوره آموزشی یاد می‌گیرید که چگونه در برابر یک جمع سخنرانی کنید و با استفاده از
+                                تکنیک‌های متقعاد سازی و ...
+                                <br>
+                                <a href="#offcanvas" onclick='offUpdate(offToastNarration)' class="round-links" style="background-color:rgb(244, 210, 252)">اطلاع‌رسانی
+                                    و قصه‌گویی</a>
+                                <a href="#offcanvas" onclick='offUpdate(offToastHumor)' class="round-links" style="background-color:rgb(229, 248, 227)">بیان
+                                    طنزآلود</a>
+                                <a href="#offcanvas" onclick='offUpdate(offToastPersuasion)' class="round-links" style="background-color:rgb(247, 220, 234)">متقاعد‌
+                                    سازی</a>
+                                <a href="#offcanvas" onclick='offUpdate(offToastReport)' class="round-links" style="background-color:rgb(243, 202, 202)">گزارش
+                                    دهی</a>
+                            </p>
+
+                        </section>
+                    </div>
                 </div>
-            </div>
         </article>
-        <article class="post-card no-image" id="special-cinema-lyrics">
-            {% if post.cover %}
+        <article class="indx-card no-image" id="special-cinema-lyrics">
             <a class="post-card-image-link" href="{{ post.url   }}">
-                <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
+                    <div class="post-card-image" style="background-image: url(/assets/images/posts/mov-lyr.jpg)"></div>
             </a>
-            {% endif %}
             <div class="post-card-content">
                 <div class="post-card-content-link" href="{{ post.url   }}">
                     <header class="post-card-header">
                         <span class="post-card-tags">دوره‌های ویژه</span>
-                        <h2 class="post-card-title">Lyrics and Music</h2>
+                        <h2 class="post-card-title">Movies and Lyrics</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p> اکثر افرادی که انگلیسی یا هر زبان دیگری را به خوبی یاد گرفته‌اند، تنها به کتاب‌های آموزش زبان اکتفا نکرده‌اند. آنها به این توصیه که خود را معرض زبان قرار دهید گوش کرده و با تماشای فیلم، سریال، اخبار، و گوش کردن موسیقی، خود را با ابعاد فرهنگی زبان انگلیسی آَشنا کرده‌اند
+                        <p> اکثر افرادی که انگلیسی یا هر زبان دیگری را به خوبی یاد گرفته‌اند، تنها به کتاب‌های آموزش
+                            زبان اکتفا نکرده‌اند. آنها به این توصیه که خود را معرض زبان قرار دهید گوش کرده و با تماشای
+                            فیلم، سریال، اخبار، و گوش کردن موسیقی، خود را با ابعاد فرهنگی زبان انگلیسی آَشنا کرده‌اند
                             <br>
-                            <a href="#offcanvas" onclick='offUpdate(offCinema)' class="round-links" style="background-color: rgb(231, 253, 228)">دوره کارگردان‌های بزرگ <i class="em em-movie_camera"></i></a>
+                            <a href="#offcanvas" onclick='offUpdate(offCinema)' class="round-links" style="background-color: rgb(231, 253, 228)">دوره
+                                کارگردان‌های بزرگ <i class="em em-movie_camera"></i></a>
                             <br>
-                            <a href="#offcanvas" onclick='offUpdate(offLyrics)' class="round-links" style="background-color:rgb(249, 252, 209)">دوره بررسی آثار ماندگار موسیقی <i class="em em-musical_note"></i></a>
+                            <a href="#offcanvas" onclick='offUpdate(offLyrics)' class="round-links" style="background-color:rgb(249, 252, 209)">دوره
+                                بررسی آثار ماندگار موسیقی <i class="em em-musical_note"></i></a>
                         </p>
                     </section>
                 </div>
@@ -238,9 +238,9 @@
 <div>
     <h2 class="index-title">مطالب آموزشی</h2>
     <div class="index-feed">
-        {% assign posts = site.posts | where: "category", "articles" %}
+        {% assign posts = site.posts | where: "category", "multimedia" %}
         {% for post in posts limit:1 %}
-        <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
+        <article class="indx-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>
@@ -269,9 +269,9 @@
         </article>
 
         {% endfor %}
-        {% assign posts = site.posts | where: "category", "multimedia" %}
+        {% assign posts = site.posts | where: "category", "articles" %}
         {% for post in posts limit:1 %}
-        <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
+        <article class="indx-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}" style="direction: ltr;">
             {% if post.cover %}
             <a class="post-card-image-link" href="{{ post.url   }}">
                 <div class="post-card-image" style="background-image: url({{ post.cover }})"></div>

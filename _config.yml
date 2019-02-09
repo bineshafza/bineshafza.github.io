@@ -6,7 +6,7 @@ language: 'en-uk'
 timezone: Asia/Tehran
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ""
-url: https://bineshafza.ir
+url: https://bineshafza.ir/
 
 # Website info
 title: بینش‌افزا
@@ -97,6 +97,7 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+  - _image_optim_cache.yml
 
 defaults:
   # News
@@ -175,5 +176,5 @@ defaults:
 
 image_optim:
   archive_dir: "archive/files/"
-  cache_file: "archive/_image_optim_cache.yml"
+  cache_file: "_image_optim_cache.yml"
   image_glob: "assets/images/**/**.{gif,png,jpg,jpeg}"

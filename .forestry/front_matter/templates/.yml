@@ -27,5 +27,9 @@ fields:
   type: text
   hidden: false
   default: bineshafza
-pages:
-- _posts/news/2018-12-13-برگزاری-دوره-جدید-toastmasters.md
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+
