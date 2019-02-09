@@ -27,6 +27,10 @@ fields:
   type: text
   hidden: false
   default: bineshafza
+- type: text
+  name: layout
+  label: layout
+  default: post
 pages:
 - _posts/courses/2019-01-10-french-language.md
 - _posts/news/2019-01-19-ماک-آیلتس.md
