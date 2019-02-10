@@ -8,4 +8,4 @@ tags:
 - Videos
 
 ---
-<div id="15497858906992126"><script type="text/JavaScript" src="[https://www.aparat.com/embed/TlBMF?data](https://www.aparat.com/embed/TlBMF?data "https://www.aparat.com/embed/TlBMF?data")\[rnddiv\]=15497858906992126&data\[responsive\]=yes"></script></div>
+<iframe src="[https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame](https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame "https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame")" height="360" width="640" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" ></iframe>
