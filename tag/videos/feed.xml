@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
   <link href="https://bineshafza.ir//tag/videos/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://bineshafza.ir//" rel="alternate" type="text/html" />
-  <updated>2019-02-10T23:32:50+03:30</updated>
+  <updated>2019-02-10T23:47:28+03:30</updated>
   <id>https://bineshafza.ir//tag/videos/feed.xml</id>
 
   
@@ -41,7 +41,8 @@
       <published>2019-02-10T00:00:00+03:30</published>
       <updated>2019-02-10T00:00:00+03:30</updated>
       <id>https://bineshafza.ir//multimedia/great-minds-richard-feynman-the-uncertainty-of-knowledge</id>
-      <content type="html" xml:base="https://bineshafza.ir//multimedia/great-minds-richard-feynman-the-uncertainty-of-knowledge">&lt;p&gt;&amp;lt;iframe src=”&lt;a href=&quot;https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame&quot; title=&quot;https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame&quot;&gt;https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame&lt;/a&gt;” height=”360” width=”640” allowFullScreen=”true” webkitallowfullscreen=”true” mozallowfullscreen=”true” &amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;</content>
+      <content type="html" xml:base="https://bineshafza.ir//multimedia/great-minds-richard-feynman-the-uncertainty-of-knowledge">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;iframe src=&quot;https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame&quot; height=&quot;360&quot; width=&quot;640&quot; allowFullScreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; &amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       
@@ -64,7 +65,7 @@
       
 
       
-        <summary type="html">&amp;lt;iframe src=”https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame” height=”360” width=”640” allowFullScreen=”true” webkitallowfullscreen=”true” mozallowfullscreen=”true” &amp;gt;&amp;lt;/iframe&amp;gt;</summary>
+        <summary type="html">&amp;lt;iframe src=&quot;https://www.aparat.com/video/video/embed/videohash/TlBMF/vt/frame&quot; height=&quot;360&quot; width=&quot;640&quot; allowFullScreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; &amp;gt;&amp;lt;/iframe&amp;gt;</summary>
       
 
       
