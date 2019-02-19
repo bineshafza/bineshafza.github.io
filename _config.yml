@@ -35,7 +35,7 @@ disqus: False
 disqus_shortname: username # replace with your disqus username
 
 # Google Analytics
-google_analytics: "" # replace with your GA tracking identifier
+google_analytics: "UA-125890391-1" # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
