@@ -1,16 +1,16 @@
 <!-- CSS -->
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="/assets/built/flickity.min.css">
 <!-- JavaScript -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="/assets/js/flickity.pkgd.min.js"></script>
 
-<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }' dir="ltr">
+<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true ,"initialIndex": 0}' dir="ltr">
     {% assign posts = site.posts | where: "category", "news" %}
     {% for post in posts limit:3 %}
         <div class="carousel-cell">
             <article class="slider-box" dir="rtl">
                 {% if post.cover %}
                 <a class="post-card-image-link" href="{{ post.url   }}">
-                    <div class="news-card-image" style="background-image: url({{ post.cover }})"></div>
+                    <div class="news-card-image" style="background-image: url('{{ post.cover }}')"></div>
                 </a>
                 {% endif %}
                 <div class="post-card-content">
@@ -49,15 +49,3 @@
         </div>
         {%endfor%}
       </div>
-
-      <style>
-        .main-carousel{
-          height:100%
-        }
-.carousel-cell {
-  width: 100%; /* full width */
-  height: 100%; /* height of carousel */
-  margin-right: 10px;
-  margin-left: 10px;
-}
-      </style>
