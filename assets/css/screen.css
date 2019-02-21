@@ -2353,7 +2353,7 @@ li {
     position: absolute;
     display: none;
     opacity: 0;
- 
+
     /* Hide off-screen when not needed (this is more accessible than display:none;) */
 
 }
