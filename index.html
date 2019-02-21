@@ -19,20 +19,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-    <style>.hljs { background: none; }</style>
-
-    <!--[if IE]>
-        <style>
-            p, ol, ul{
-                width: 100%;
-            }
-            blockquote{
-                width: 100%;
-            }
-        </style>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/assets/built/emoji.css" />
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="مرکز تخصصی آمادگی برای آزمون‌های بین المللی و دوره‌های خاص مکالمه" />
@@ -92,7 +79,7 @@
     });
     </script> -->
 
-    <meta name="generator" content="Jekyll 3.6.2" />
+    <meta name="generator" content="Jekyll 3.8.5" />
     <link rel="alternate" type="application/rss+xml" title="بینش‌افزا" href="/feed.xml" />
 
 
@@ -116,27 +103,58 @@ into the {body} of the default.hbs template -->
                 
             </h1>
             <h1>بینش‌افزا</h1>
-            <h2 class="site-description">مرکز تخصصی آمادگی برای آزمون‌های بین المللی و دوره‌های خاص مکالمه</h2>
+            <h2 class="site-description">مرکز تخصصی آمادگی برای آزمون‌های بین المللی و دوره‌های خاص مکالمه
+                </h2>
         </div>
         <nav class="site-nav">
     <div class="site-nav-left">
         
         
         <ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href="/">خانه</a></li>
-    <li class="nav-news" role="menuitem"><a href="/news">اخبار</a></li>
-    <li class="nav-ielts" role="menuitem"><a href="/IELTS">IELTS</a></li>
-    <li class="nav-courses" role="menuitem"><a href="/courses">دوره‌های آموزشی</a></li>
-    <li class="nav-articles" role="menuitem"><a href="/articles">مطالب آموزشی</a></li>
-<!--     <li class="nav-podcasts" role="menuitem"><a href="/podcasts">پادکست‌ها</a></li> -->
-    <li class="nav-multimedia" role="menuitem"><a href="/multimedia">مولتی‌مدیا</a></li>
-<!--     <li class="nav-instructors" role="menuitem"><a href="/instructors">اساتید</a></li> -->
+    <li class="nav-home" role="menuitem"><a href="/">خانه</a>
+    </li>
+    <li class="nav-news" role="menuitem"><a href="/news">اخبار</a>
+        <ul>
+            <li><a href="/news">آخرین خبر‌ها</a></li>
+            <li><a href="/events">رویدادها</a></li>
+        </ul>
+    </li>
+    <li class="nav-ielts" role="menuitem"><a href="/IELTS">آیلتس</a>
+        <ul>
+            <li><a href="/IELTS">همه چیز درباره آیلتس</a></li>
+            <li><a href="/courses">برنامه کلاس‌ها</a></li>
+            <li><a href="/placement">تعیین سطح</a></li>
+        </ul>
+    </li>
+    <li class="nav-courses" role="menuitem"><a href="/courses">دوره‌های آموزشی</a>
+        <ul>
+            <li><a href="/courses">آزمون‌های بین‌المللی</a></li>
+            <li><a href="/courses">زبان‌های خارجی</a></li>
+            <li><a href="/courses">دوره‌های خاص مکالمه</a></li>
+        </ul>
+    </li>
+    <li class="nav-articles" role="menuitem"><a href="/articles">مطالب آموزشی</a>
+        <ul>
+            <li><a href="/tag/grammar/">گرامر</a></li>
+            <li><a href="/tag/vocabulary/">واژگان</a></li>
+            <li><a href="/tag/pronounciation/">تلفظ</a></li>
+        </ul>
+    </li>
+    <!--     <li class="nav-podcasts" role="menuitem"><a href="/podcasts">پادکست‌ها</a></li> -->
+    <li class="nav-multimedia" role="menuitem"><a href="/multimedia">مولتی‌مدیا</a>
+        <ul>
+            <li><a href="/tag/quotes/">جملات قصار</a></li>
+            <li><a href="#">ویدیو‌های مفهومی</a></li>
+            <li><a href="#">ویدیو‌های School Of Life</a></li>
+            <li><a href="/podcasts">پادکست‌ها</a></li>
+        </ul>
+    </li>
+    <!--     <li class="nav-instructors" role="menuitem"><a href="/instructors">اساتید</a></li> -->
     <li class="nav-placement" role="menuitem"><a href="/placement">تعیین سطح</a></li>
     <li class="nav-blog" role="menuitem"><a href="/blog">وبلاگ</a></li>
     <li class="nav-about" role="menuitem"><a href="/about">درباره‌ما</a></li>
     <li class="nav-lang" role="menuitem"><a href="https://bineshafza.ir/en/">English</a></li>
 </ul>
-
         
     </div>
     <div class="site-nav-right">
@@ -176,23 +194,29 @@ into the {body} of the default.hbs template -->
     <h2 class="index-title">اخبار</h2>
     <div class="index-feed">
         <article class="slider-card post-card"><!-- CSS -->
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="/assets/built/flickity.min.css">
 <!-- JavaScript -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="/assets/js/flickity.pkgd.min.js"></script>
 
-<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }' dir="ltr">
+<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true ,"initialIndex": 0}' dir="ltr">
     
     
         <div class="carousel-cell">
             <article class="slider-box" dir="rtl">
                 
-                <a class="post-card-image-link" href="/news/%D9%85%D8%A7%DA%A9-%D8%A2%DB%8C%D9%84%D8%AA%D8%B3">
-                    <div class="news-card-image" style="background-image: url(/assets/images/posts/mockbahman.png)"></div>
+                <a class="post-card-image-link" href="/news/%D9%85%D8%A7%DA%A9-%D8%A2%DB%8C%D9%84%D8%AA%D8%B3" data-no-instant >
+                    <div class="news-card-image" style="background-image: url('/assets/images/posts/mockbahman.png')"></div>
                 </a>
                 
                 <div class="post-card-content">
-                    <a class="post-card-content-link" href="/news/%D9%85%D8%A7%DA%A9-%D8%A2%DB%8C%D9%84%D8%AA%D8%B3">
+                    <a class="post-card-content-link" href="/news/%D9%85%D8%A7%DA%A9-%D8%A2%DB%8C%D9%84%D8%AA%D8%B3" data-no-instant>
                         <header class="post-card-header">
+                            
+                            
+                            
+                            <span class="post-card-tags">Event</span>
+                            
+                            
                             
 
                             <h2 class="post-card-title">ماک آیلتس</h2>
@@ -224,12 +248,12 @@ into the {body} of the default.hbs template -->
         <div class="carousel-cell">
             <article class="slider-box" dir="rtl">
                 
-                <a class="post-card-image-link" href="/news/Lyrics-Course">
-                    <div class="news-card-image" style="background-image: url(/assets/images/posts/Lyrics.png)"></div>
+                <a class="post-card-image-link" href="/news/Lyrics-Course" data-no-instant >
+                    <div class="news-card-image" style="background-image: url('/assets/images/posts/Lyrics.png')"></div>
                 </a>
                 
                 <div class="post-card-content">
-                    <a class="post-card-content-link" href="/news/Lyrics-Course">
+                    <a class="post-card-content-link" href="/news/Lyrics-Course" data-no-instant>
                         <header class="post-card-header">
                             
                             
@@ -261,12 +285,12 @@ into the {body} of the default.hbs template -->
         <div class="carousel-cell">
             <article class="slider-box" dir="rtl">
                 
-                <a class="post-card-image-link" href="/news/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-toastmasters">
-                    <div class="news-card-image" style="background-image: url(/assets/images/posts/TMDEY.jpg)"></div>
+                <a class="post-card-image-link" href="/news/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-toastmasters" data-no-instant >
+                    <div class="news-card-image" style="background-image: url('/assets/images/posts/TMDEY.jpg')"></div>
                 </a>
                 
                 <div class="post-card-content">
-                    <a class="post-card-content-link" href="/news/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-toastmasters">
+                    <a class="post-card-content-link" href="/news/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-toastmasters" data-no-instant>
                         <header class="post-card-header">
                             
                             
@@ -296,18 +320,7 @@ into the {body} of the default.hbs template -->
         </div>
         
       </div>
-
-      <style>
-        .main-carousel{
-          height:100%
-        }
-.carousel-cell {
-  width: 100%; /* full width */
-  height: 100%; /* height of carousel */
-  margin-right: 10px;
-  margin-left: 10px;
-}
-      </style></article>
+</article>
         <article class="indx-card no-image podcast-card">
             
             <div class="post-card-content">
@@ -378,7 +391,7 @@ into the {body} of the default.hbs template -->
                         <h2 class="post-card-title">زبان‌های خارجی</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
                         <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-flag-england"></i> انگلیسی</a></p>
                         <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-fr"></i> فرانسوی</a></p>
                         <p><a href="/courses/ربان-های-غیرانگلیسی"><i class="em em-de"></i> آلمانی</a></p>
@@ -421,15 +434,16 @@ into the {body} of the default.hbs template -->
                     </header>
                     <section class="post-card-excerpt">
                         <p>تاریخ بعدی ماک آیلتس : ۱۸ بهمن</p>
-                        <a href="/mock" class="placement-test" style="margin-bottom:20px; background-color: rgb(248, 252, 21)">اطلاعات بیشتر
-                            </a>
+                        <a href="/mock" class="placement-test" style="margin-top:20px; background-color: rgb(248, 252, 21)">اطلاعات
+                            بیشتر
+                        </a>
                     </section>
                 </div>
             </div>
         </article>
         <article class="indx-card no-image">
             <a class="post-card-image-link" href="">
-               <div class="post-card-image" style="background-image: url(/assets/images/posts/placement-test-photo.jpg)"></div>
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/placement-test-photo.jpg)"></div>
             </a>
             <div class="post-card-content">
                 <div class="post-card-content-link">
@@ -454,7 +468,7 @@ into the {body} of the default.hbs template -->
     <div class="index-feed">
         <article class="indx-card" id="special-schooloflife">
             <a class="post-card-image-link" href="">
-                <div class="post-card-image" style="background-image: url(/assets/images/posts/school-of-life.jpeg)"></div>
+                <div class="post-card-image" style="background-image: url('/assets/images/posts/school-of-life.jpeg')"></div>
             </a>
 
             <div class="post-card-content">
@@ -480,7 +494,7 @@ into the {body} of the default.hbs template -->
         <article class="indx-card" id="special-toastmasters">
 
             <div class="post-card-image-link" href="">
-                <div class="post-card-image" style="background-image: url(/assets/images/posts/toastm.jpg)"></div>
+                <div class="post-card-image" style="background-image: url('/assets/images/posts/toastm.jpg')"></div>
                 </a>
 
                 <div class="post-card-content">
@@ -509,7 +523,7 @@ into the {body} of the default.hbs template -->
         </article>
         <article class="indx-card no-image" id="special-cinema-lyrics">
             <a class="post-card-image-link" href="">
-                    <div class="post-card-image" style="background-image: url(/assets/images/posts/mov-lyr.jpg)"></div>
+                <div class="post-card-image" style="background-image: url('/assets/images/posts/mov-lyr.jpg')"></div>
             </a>
             <div class="post-card-content">
                 <div class="post-card-content-link" href="">
@@ -541,25 +555,29 @@ into the {body} of the default.hbs template -->
         
         <article class="indx-card home-template">
             
-            <a class="post-card-image-link" href="/multimedia/great-minds-richard-feynman-the-uncertainty-of-knowledge">
-                <div class="post-card-image" style="background-image: url()"></div>
+            <a class="post-card-image-link" href="/multimedia/QUOTATION">
+                <div class="post-card-image" style="background-image: url('/assets/images/posts/photo_۲۰۱۹-۰۲-۱۴_۰۸-۰۹-۴۸.jpg')"></div>
             </a>
             
             <div class="post-card-content">
-                <a class="post-card-content-link" href="/multimedia/great-minds-richard-feynman-the-uncertainty-of-knowledge">
+                <a class="post-card-content-link" href="/multimedia/QUOTATION">
                     <header class="post-card-header">
                         
                         
                         
-                        <span class="post-card-tags">Videos</span>
+                        <span class="post-card-tags">Quotes</span>
                         
                         
                         
 
-                        <h2 class="post-card-title"> Great Minds: Richard Feynman - The Uncertainty Of Knowledge</h2>
+                        <h2 class="post-card-title">Quote of The Day</h2>
                     </header>
                     <section class="post-card-excerpt">
-                        <p>
+                        <p>♦️گاهی حتی زنده ماندن عملی شجاعانه است.
+
+—لوسیوس آنایوس سنکا
+
+🆔 @bineshafzalanguageinst
 </p>
                     </section>
                 </a>
@@ -572,7 +590,7 @@ into the {body} of the default.hbs template -->
         <article class="indx-card home-template" style="direction: ltr;">
             
             <a class="post-card-image-link" href="/articles/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%AE%D9%88%D8%AF-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1-%DB%8C%DA%A9-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%DA%86%D9%87%D8%A7%D8%B1-%D9%85%D8%B1%D8%AD%D9%84%D9%87-%D8%A7%DB%8C">
-                <div class="post-card-image" style="background-image: url(/assets/images/posts/Sliding-Banner-Self-Directed-Learning-min.jpg)"></div>
+                <div class="post-card-image" style="background-image: url('/assets/images/posts/Sliding-Banner-Self-Directed-Learning-min.jpg')"></div>
             </a>
             
             <div class="post-card-content">
@@ -643,8 +661,8 @@ into the {body} of the default.hbs template -->
 </a>
                         
                         
-                        <a class="social-link social-link-li" href="https://www.linkedin.com/in/bineshafza" target="_blank"
-                            rel="noopener"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <a class="social-link social-link-li" href="https://www.linkedin.com/in/bineshafza"
+                            target="_blank" rel="noopener"><?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -692,15 +710,15 @@ into the {body} of the default.hbs template -->
 </a>
                         
                     </nav>
-                    <p style="font-size: 10px; margin-top:30px; opacity: 0.3;">   طراحی و توسعه توسط محسن خانپور
+                    <p style="font-size: 10px; margin-top:30px; opacity: 0.3;"> طراحی و توسعه توسط محسن خانپور
                         <br>
                         تمامی حقوق برای بینش‌افزا محفوظ است.
-                     
+
                     </p>
                 </section>
                 <section class="site-footer-map"> <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12957.369132667203!2d51.3258602!3d35.7177997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x367ea06c0dc781fb!2z2KLZhdmI2LLYtNqv2KfZhyDYqNuM2YbYtCDYp9mB2LLYpw!5e0!3m2!1sen!2sus!4v1508518165315" width="400" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.66675031721!2d51.328208183501566!3d35.718015737380135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dfdebd3fcf62d%3A0x3b37b4ed2408a2d0!2sBinesh+Afza!5e0!3m2!1sen!2s!4v1544569887262" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe> </section>
-                
+
             </div>
         </footer>
 
@@ -797,31 +815,14 @@ into the {body} of the default.hbs template -->
 
 
     <!-- jQuery + Fitvids, which makes all video embeds responsive -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous">
-
-    </script>
+    <script type="text/javascript" src="/assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
-
-    <!-- highlight.js 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('pre code').each(function (i, block) {
-                hljs.highlightBlock(block);
-            });
-        });
-    </script> -->
-
-
-    <!-- Paginator increased to "infinit" in _config.yml -->
-    <!-- if paginator.posts  -->
-    <!-- <script>
-        var maxPages = parseInt('1');
+    <script type="text/javascript" src="/assets/js/instantclick.min.js" data-no-instant></script>
+    <script data-no-instant>
+        InstantClick.init();
     </script>
-    <script src="/assets/js/infinitescroll.js"></script> -->
-    <!-- /endif -->
+
+
 
     
 
