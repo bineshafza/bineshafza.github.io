@@ -3,7 +3,10 @@ title: 'Pronunciation Lesson - Letter C, the two pronunciations '
 date: 2017-07-27 06:00:00 +0000
 tags:
 - Lessons
+<<<<<<< HEAD
 - pronounciation
+=======
+>>>>>>> 70fbc6be6192a050d9085b2e3dca413c115ce6f1
 cover: "/assets/images/posts/vocab.png"
 subclass: post tag-getting-started
 author: ''

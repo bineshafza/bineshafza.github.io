@@ -341,8 +341,13 @@ blockquote {
 
 ol,
 ul {
+<<<<<<< HEAD
 /*     padding-left: 1.3em;
     padding-right: 1.5em; */
+=======
+    padding-left: 1.3em;
+    padding-right: 0em;
+>>>>>>> 70fbc6be6192a050d9085b2e3dca413c115ce6f1
 }
 
 ol ol,
