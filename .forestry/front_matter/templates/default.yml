@@ -32,6 +32,7 @@ fields:
   label: layout
   default: post
 pages:
+- _data/homepage.yml
 - _posts/articles/Other/the-real-st-valentine-was-no-patron-of-love.md
 - _posts/multimedia/quotes/2019-01-14-quote-of-the-day.md
 - _posts/articles/Other/2019-02-10-یادگیری-خود-راهبر-یک-فرآیند-چهار-مرحله‌ای.md

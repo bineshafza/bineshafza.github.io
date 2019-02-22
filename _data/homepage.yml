@@ -1,1 +1,4 @@
-mockdate : "22 Second"
+---
+mockdate: 22 Second
+author: bineshafza
+layout: post

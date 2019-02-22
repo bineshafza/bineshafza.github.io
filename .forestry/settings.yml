@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/homepage.yml
   label: Home Page
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
