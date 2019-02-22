@@ -27,10 +27,18 @@ fields:
   type: text
   hidden: false
   default: bineshafza
-- type: text
+- type: select
   name: layout
-  label: layout
-  default: post
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - post
+    - post-ltr
+  label: Post Language
+  description: Select post language to define text-direction.
+  default: post-ltr
 pages:
 - _data/homepage.yml
 - _posts/articles/Other/the-real-st-valentine-was-no-patron-of-love.md
