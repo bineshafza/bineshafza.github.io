@@ -40,6 +40,7 @@ fields:
   description: Select post language to define text-direction.
   default: post-ltr
 pages:
+- _posts/articles/Other/michel-de-montaigne.md
 - _posts/articles/Other/cultural-mining.md
 - _data/homepage.yml
 - _posts/articles/Other/the-real-st-valentine-was-no-patron-of-love.md
